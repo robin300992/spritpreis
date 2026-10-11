@@ -1,0 +1,15 @@
+{
+  "tank_liter": 50,
+  "verbrauch_l_100km": 9,
+  "umwegfaktor": 1.3,
+  "stadt_kmh": 25,
+  "zeitwert_eur_h": 0,
+  "max_umweg_km": 10,
+  "ruhezeit_von": 22,
+  "ruhezeit_bis": 7,
+  "max_push_pro_tag": 2,
+  "push_abstand_h": 6,
+  "llm_modell": "claude-haiku-5-5",
+  "ntfy_server": "https://ntfy.sh",
+  "dashboard_url": ""
+}

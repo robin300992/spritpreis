@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Super E5 – Preis &amp; Empfehlung</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛽</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #E8EAE7; --surface: #F6F7F5; --ink: #16202B; --muted: #5B6672; --line: #C9CEC9;
+  --board: #0F2A47; --board-text: #9FB3C8; --digit: #FFB81C; --primary: #0F2A47; --trace: #0F2A47;
+  --good: #1F7A4D; --bad: #C2410C; --info: #5B6672;
+  --sans: "Barlow", "Helvetica Neue", Arial, sans-serif;
+  --cond: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11161C; --surface: #1A222B; --ink: #E6EAEE; --muted: #9AA5B1; --line: #2C3743;
+    --board: #0B2038; --primary: #1F4F80; --trace: #7DB4E8; --good: #3FA36B; --bad: #E3672C; --info: #9AA5B1;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1rem/1.5 var(--sans); }
+main { max-width: 40rem; margin: 0 auto; padding: 1rem 1rem 3rem; }
+h2 { font: 600 1.5rem/1.2 var(--cond); margin: 0 0 .75rem; }
+section { margin-top: 2.25rem; }
+button { font: 600 1rem var(--sans); border-radius: 6px; padding: .65rem 1rem; cursor: pointer; border: 2px solid var(--primary); background: var(--primary); color: #fff; }
+button.secondary { background: transparent; color: var(--ink); border-color: var(--ink); }
+button.ghost { background: transparent; color: var(--muted); border-color: transparent; text-decoration: underline; padding-inline: .25rem; }
+button:focus-visible, input:focus-visible { outline: 3px solid var(--digit); outline-offset: 2px; }
+button[disabled] { opacity: .6; cursor: wait; }
+
+/* Preismast */
+.pylon { margin-top: 0; background: var(--board); color: #fff; border-radius: 8px 8px 0 0; padding: 1.25rem 1.25rem 1.1rem 1.6rem; position: relative; overflow: hidden; }
+.pylon::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 6px; background: var(--digit); }
+.pylon-label { margin: 0; color: var(--board-text); font: 500 1.05rem/1.3 var(--cond); }
+.price { margin: .1rem 0 .2rem; font: 700 clamp(4.8rem, 24vw, 7.5rem)/1 var(--cond); color: var(--digit); font-variant-numeric: tabular-nums; letter-spacing: .01em; text-shadow: 0 0 22px rgba(255,184,28,.28); }
+.price sup { font-size: .46em; vertical-align: .9em; margin-left: .04em; }
+.price .unit { font-size: .2em; font-weight: 600; color: var(--board-text); margin-left: .4em; letter-spacing: 0; text-shadow: none; }
+.station { margin: 0; font-weight: 600; font-size: 1.1rem; }
+.station small { display: block; font-weight: 400; font-size: .95rem; color: var(--board-text); }
+.stamp { margin: .6rem 0 0; color: var(--board-text); font-size: .9rem; }
+.stamp.live { color: var(--digit); }
+.actions { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; background: var(--surface); padding: .75rem 1rem; border-radius: 0 0 8px 8px; border: 1px solid var(--line); border-top: 0; }
+.msg { margin: .75rem 0 0; color: var(--bad); font-size: .95rem; }
+.msg:empty { display: none; }
+
+/* Empfehlung */
+.rec { background: var(--surface); border: 1px solid var(--line); border-left: 6px solid var(--info); border-radius: 6px; padding: 1rem 1.1rem; }
+.rec[data-kind="now"] { border-left-color: var(--good); }
+.rec[data-kind="wait"] { border-left-color: var(--bad); }
+.rec h2 { font-size: 1.9rem; margin-bottom: .25rem; }
+.rec[data-kind="now"] h2 { color: var(--good); }
+.rec[data-kind="wait"] h2 { color: var(--bad); }
+.rec p { margin: 0; }
+.fine { color: var(--muted); font-size: .85rem; margin-top: .6rem !important; }
+
+/* Fakten */
+.facts { margin: 0 0 1.25rem; display: grid; gap: .8rem; }
+.facts div { border-top: 1px solid var(--line); padding-top: .55rem; }
+.facts dt { color: var(--muted); font-size: .9rem; }
+.facts dd { margin: 0; font: 600 1.35rem/1.25 var(--cond); }
+.facts dd small { display: block; font: 400 .9rem/1.4 var(--sans); color: var(--muted); }
+
+/* Heatmap */
+.heat { display: grid; grid-template-columns: 1.9rem repeat(24, minmax(0, 1fr)); gap: 2px; font-size: .75rem; }
+.heat .h { color: var(--muted); text-align: left; white-space: nowrap; overflow: visible; }
+.heat .d { color: var(--muted); align-self: center; }
+.heat .c { aspect-ratio: 1 / 1.25; border-radius: 2px; }
+.heat .c.empty { background: transparent; outline: 1px dashed var(--line); outline-offset: -1px; }
+.heat .c.now { outline: 2px solid var(--ink); outline-offset: -1px; }
+.legend { display: flex; align-items: center; gap: .5rem; margin-top: .6rem; font-size: .85rem; color: var(--muted); }
+.legend span.bar { flex: 0 0 7rem; height: .6rem; border-radius: 3px; background: linear-gradient(90deg, var(--good), var(--bad)); }
+
+/* Chart */
+.chart-wrap { width: 100%; overflow: hidden; }
+#chart { display: block; width: 100%; height: 220px; }
+#chart text { font: 500 11px var(--sans); fill: var(--muted); }
+.key { display: flex; gap: 1.2rem; font-size: .85rem; color: var(--muted); margin-top: .4rem; }
+.key i { display: inline-block; width: 1.2rem; height: 3px; vertical-align: middle; margin-right: .35rem; border-radius: 2px; }
+
+/* Listen */
+ol.list, ul.list { list-style: none; margin: 0; padding: 0; }
+.list li { display: grid; grid-template-columns: 1fr auto; gap: .2rem 1rem; padding: .6rem 0; border-top: 1px solid var(--line); }
+.list .n { font-weight: 600; }
+.list .a { grid-column: 1; color: var(--muted); font-size: .9rem; }
+.list .p { grid-row: 1 / span 2; grid-column: 2; align-self: center; font: 700 1.5rem/1 var(--cond); font-variant-numeric: tabular-nums; }
+.list .p sup { font-size: .55em; }
+.list li:first-child .p { color: var(--good); }
+
+h3 { font: 600 1.2rem/1.2 var(--cond); margin: 1.5rem 0 .5rem; }
+.intro { margin: 0 0 .5rem; color: var(--muted); font-size: .95rem; }
+.list .p.neg { color: var(--muted); }
+.journal { list-style: none; margin: 0; padding: 0; }
+.journal li { border-left: 3px solid var(--line); padding: .35rem 0 .35rem .8rem; margin-bottom: .6rem; }
+.journal li[data-kind="push"] { border-left-color: var(--good); }
+.journal li[data-kind="gelernt"] { border-left-color: var(--digit); }
+.journal .t { font-weight: 600; }
+.journal .m { color: var(--muted); font-size: .9rem; }
+.journal .r { font-size: .9rem; margin-top: .15rem; }
+footer { margin-top: 3rem; color: var(--muted); font-size: .85rem; }
+footer a { color: inherit; }
+
+dialog { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); max-width: 26rem; width: calc(100% - 2rem); padding: 1.25rem; }
+dialog::backdrop { background: rgba(10, 20, 30, .5); }
+dialog label { display: block; margin-top: .8rem; font-size: .9rem; color: var(--muted); }
+dialog input { display: block; width: 100%; margin-top: .25rem; font: 1rem var(--sans); padding: .55rem .6rem; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); }
+dialog menu { display: flex; justify-content: flex-end; gap: .5rem; padding: 0; margin: 1.25rem 0 0; }
+dialog p { margin: .25rem 0 0; color: var(--muted); font-size: .9rem; }
+@media (prefers-reduced-motion: no-preference) {
+  .price.flash { animation: flash .6s ease-out; }
+  @keyframes flash { from { opacity: .25; } to { opacity: 1; } }
+}
+</style>
+</head>
+<body>
+<main>
+  <section class="pylon" aria-live="polite">
+    <p class="pylon-label">Super E5, günstigste offene Tankstelle im Umkreis von <span id="radius">15</span> km</p>
+    <p class="price" id="price"><span id="price-main">–,––</span><sup id="price-tenth"></sup><span class="unit">€/l</span></p>
+    <p class="station" id="station">Daten werden geladen</p>
+    <p class="stamp" id="stamp"></p>
+  </section>
+  <div class="actions">
+    <button id="btn-live" type="button">Live-Preis abfragen</button>
+    <button id="btn-reload" type="button" class="secondary">Daten neu laden</button>
+    <button id="btn-settings" type="button" class="ghost">Einstellungen</button>
+  </div>
+  <p class="msg" id="msg" role="status"></p>
+
+  <section class="rec" id="rec" data-kind="info">
+    <h2 id="rec-title">Empfehlung</h2>
+    <p id="rec-text"></p>
+    <p class="fine">Prognose aus den Mustern der letzten 14 Tage mit vom Agenten gelernten Schwellen, keine Garantie.</p>
+  </section>
+
+  <section>
+    <h2>Wann es am günstigsten ist</h2>
+    <dl class="facts" id="facts"></dl>
+    <div class="heat" id="heat" role="img" aria-label="Durchschnittlicher Tiefstpreis nach Wochentag und Uhrzeit"></div>
+    <div class="legend"><span>günstiger</span><span class="bar"></span><span>teurer</span></div>
+  </section>
+
+  <section>
+    <h2>Verlauf</h2>
+    <div class="chart-wrap"><svg id="chart" role="img" aria-label="Preisverlauf Super E5"></svg></div>
+    <div class="key"><span><i style="background:var(--trace)"></i>Günstigste</span><span><i style="background:var(--muted)"></i>Median aller offenen</span></div>
+  </section>
+
+  <section>
+    <h2>Jetzt am günstigsten</h2>
+    <ol class="list" id="list"></ol>
+  </section>
+
+  <section>
+    <h2>Lohnt sich ein Umweg?</h2>
+    <p class="intro" id="detour-intro"></p>
+    <ol class="list" id="detour"></ol>
+  </section>
+
+  <section>
+    <h2>Agent</h2>
+    <dl class="facts" id="agent-facts"></dl>
+    <h3>Protokoll</h3>
+    <ul class="journal" id="journal"></ul>
+  </section>
+
+  <section>
+    <h2>Am häufigsten die günstigste</h2>
+    <ul class="list" id="frequent"></ul>
+  </section>
+
+  <footer>
+    Preisdaten: <a href="https://creativecommons.tankerkoenig.de" rel="noopener">Tankerkönig-API</a> auf Basis der Markttransparenzstelle für Kraftstoffe (MTS-K), Lizenz CC BY 4.0. Automatische Aktualisierung etwa alle 15 Minuten.
+  </footer>
+</main>
+
+<dialog id="dlg">
+  <form method="dialog">
+    <h2>Live-Abfrage einrichten</h2>
+    <p>Wird nur in diesem Browser gespeichert, nie im Repository.</p>
+    <label>Tankerkönig-API-Key <input id="f-key" autocomplete="off" spellcheck="false" required></label>
+    <label>Breitengrad <input id="f-lat" inputmode="decimal" placeholder="z. B. 52.48" required></label>
+    <label>Längengrad <input id="f-lng" inputmode="decimal" placeholder="z. B. 13.26" required></label>
+    <menu>
+      <button value="cancel" formnovalidate class="ghost">Abbrechen</button>
+      <button value="save">Speichern</button>
+    </menu>
+  </form>
+</dialog>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const WD = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
+const WD_LONG = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"];
+const CFG_KEY = "spritpreis-live";
+let DATA = null;
+
+const berlinHour = (d = new Date()) =>
+  +new Intl.DateTimeFormat("de-DE", { hour: "numeric", hourCycle: "h23", timeZone: "Europe/Berlin" })
+    .formatToParts(d).find((p) => p.type === "hour").value;
+const fmtWhen = (iso) => new Date(iso).toLocaleString("de-DE", {
+  weekday: "short", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Berlin"
+});
+const parts = (p) => { const s = p.toFixed(3).replace(".", ","); return [s.slice(0, -1), s.slice(-1)]; };
+const priceHtml = (p) => { const [a, b] = parts(p); return `${a}<sup>${b}</sup>`; };
+const plain = (p) => p.toFixed(3).replace(".", ",");
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const hourList = (hs) => {
+  const s = [...hs].sort((a, b) => a - b).map((h) => `${h}`);
+  return s.length > 1 ? `${s.slice(0, -1).join(", ")} und ${s.at(-1)} Uhr` : `${s[0]} Uhr`;
+};
+
+function msg(text) { $("msg").textContent = text || ""; }
+
+function setHero(station, stampText, live) {
+  if (!station) {
+    $("price-main").textContent = "–,––"; $("price-tenth").textContent = "";
+    $("station").textContent = "Gerade keine offene Tankstelle mit Preis gemeldet";
+    return;
+  }
+  const [a, b] = parts(station.price);
+  $("price-main").textContent = a; $("price-tenth").textContent = b;
+  $("station").innerHTML = `${esc(station.name)}<small>${esc(station.address)}</small>`;
+  $("stamp").textContent = stampText;
+  $("stamp").classList.toggle("live", !!live);
+  const el = $("price"); el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
+}
+
+function recommend(price) {
+  const d = DATA, hp = d.hour_profile;
+  if (d.full_days < 2 || hp.filter((v) => v !== null).length < 18) {
+    return {
+      kind: "info", title: "Verlauf wird aufgebaut",
+      text: `Bisher ${d.full_days} vollständige${d.full_days === 1 ? "r" : ""} Tag${d.full_days === 1 ? "" : "e"} erfasst; ab 2 Tagen gibt es eine eigene Empfehlung. Faustregel bis dahin: abends zwischen 18 und 22 Uhr tanken, morgens meiden.`
+    };
+  }
+  const h = berlinHour();
+  const nowDev = hp[h] ?? 0;
+  let best = null;
+  for (let i = 1; i <= 12; i++) {
+    const k = (h + i) % 24;
+    if (hp[k] === null) continue;
+    if (best === null || hp[k] < hp[best]) best = k;
+  }
+  const P = d.agent.params, thr = d.agent.threshold_price;
+  const saving = best === null ? 0 : (nowDev - hp[best]) * P.calib;
+  const cheapWeek = thr !== null && price <= thr;
+  if (cheapWeek || saving < P.min_saving) {
+    return {
+      kind: "now", title: "Jetzt tanken",
+      text: cheapWeek
+        ? `${plain(price)} € liegt unter der gelernten Günstig-Schwelle von ${plain(thr)} € (günstigste ${Math.round(P.percentile * 100)} % der letzten 7 Tage).`
+        : `In den nächsten 12 Stunden wird es voraussichtlich kaum günstiger (weniger als ${(P.min_saving * 100).toFixed(1).replace(".", ",")} Cent/l).`
+    };
+  }
+  const tomorrow = best <= h;
+  return {
+    kind: "wait", title: `Warten bis ${tomorrow ? "morgen " : ""}ca. ${best} Uhr`,
+    text: `Um diese Zeit ist Super E5 typischerweise rund ${Math.round(saving * 100)} Cent/l günstiger als jetzt, bei ${d.agent.tank_liter} Litern also etwa ${(saving * d.agent.tank_liter).toFixed(2).replace(".", ",")} €.`
+  };
+}
+
+function renderRec(price) {
+  const r = recommend(price);
+  $("rec").dataset.kind = r.kind; $("rec-title").textContent = r.title; $("rec-text").textContent = r.text;
+}
+
+function renderFacts() {
+  const d = DATA, out = [];
+  const wp = d.weekday_profile.map((v, i) => [v, i]).filter(([v]) => v !== null);
+  if (wp.length >= 2) {
+    wp.sort((a, b) => a[0] - b[0]);
+    const [v, i] = wp[0], [vw, iw] = wp.at(-1);
+    out.push(["Günstigster Wochentag", WD_LONG[i], `Tagesschnitt ${plain(v)} €, teuerster: ${WD_LONG[iw]} mit ${plain(vw)} €`]);
+  } else {
+    out.push(["Günstigster Wochentag", "noch offen", "Braucht mindestens zwei vollständige Tage."]);
+  }
+  const hp = d.hour_profile.map((v, h) => [v, h]).filter(([v]) => v !== null);
+  if (hp.length >= 18) {
+    hp.sort((a, b) => a[0] - b[0]);
+    const worst = hp.at(-1);
+    out.push(["Typisch günstigste Uhrzeit", hourList(hp.slice(0, 3).map(([, h]) => h)),
+      `Am teuersten gegen ${worst[1]} Uhr, Spanne im Tagesverlauf rund ${Math.round((worst[0] - hp[0][0]) * 100)} Cent/l`]);
+  } else {
+    out.push(["Typisch günstigste Uhrzeit", "noch offen", "Braucht mindestens einen vollständigen Tag."]);
+  }
+  if (d.best_seen) {
+    out.push([`Tiefstpreis der letzten ${d.keep_days} Tage`, `${plain(d.best_seen.price)} €`,
+      `${fmtWhen(d.best_seen.ts)}, ${d.best_seen.station}`]);
+  }
+  $("facts").innerHTML = out.map(([t, v, s]) => `<div><dt>${esc(t)}</dt><dd>${esc(v)}<small>${esc(s)}</small></dd></div>`).join("");
+}
+
+function renderHeat() {
+  const heat = DATA.heat, vals = heat.flat().filter((v) => v !== null);
+  const lo = Math.min(...vals), hi = Math.max(...vals), span = hi - lo || 1;
+  const nowH = berlinHour();
+  const nowW = (new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" })).getDay() + 6) % 7;
+  let html = "<span></span>";
+  for (let h = 0; h < 24; h++) html += `<span class="h">${h % 6 === 0 ? h : ""}</span>`;
+  heat.forEach((row, w) => {
+    html += `<span class="d">${WD[w]}</span>`;
+    row.forEach((v, h) => {
+      const cur = w === nowW && h === nowH ? " now" : "";
+      if (v === null) { html += `<span class="c empty${cur}" title="${WD[w]} ${h} Uhr: keine Daten"></span>`; return; }
+      const t = Math.round(((v - lo) / span) * 100);
+      html += `<span class="c${cur}" style="background:color-mix(in oklab, var(--bad) ${t}%, var(--good))" title="${WD[w]} ${h} Uhr: ${plain(v)} €"></span>`;
+    });
+  });
+  $("heat").innerHTML = html;
+}
+
+function renderChart() {
+  const svg = $("chart"), s = DATA.series;
+  const W = svg.clientWidth || 360, H = 220, L = 42, R = 8, T = 10, B = 24;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  if (s.length < 2) { svg.innerHTML = `<text x="${L}" y="${H / 2}">Noch zu wenige Messungen für einen Verlauf.</text>`; return; }
+  const ts = s.map((r) => Date.parse(r[0]));
+  const ys = s.flatMap((r) => [r[1], r[2]]);
+  let lo = Math.min(...ys), hi = Math.max(...ys);
+  lo = Math.floor(lo * 50) / 50; hi = Math.ceil(hi * 50) / 50; if (hi === lo) hi += 0.02;
+  const x = (t) => L + ((t - ts[0]) / (ts.at(-1) - ts[0])) * (W - L - R);
+  const y = (v) => T + (1 - (v - lo) / (hi - lo)) * (H - T - B);
+  const line = (i) => s.map((r, k) => `${k ? "L" : "M"}${x(ts[k]).toFixed(1)},${y(r[i]).toFixed(1)}`).join("");
+  let g = "";
+  const steps = Math.round((hi - lo) / 0.02);
+  const every = Math.max(1, Math.ceil(steps / 4));
+  for (let k = 0; k <= steps; k += every) {
+    const v = lo + k * 0.02;
+    g += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)"/><text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${v.toFixed(2).replace(".", ",")}</text>`;
+  }
+  const dayFmt = new Intl.DateTimeFormat("de-DE", { weekday: "short", day: "numeric", timeZone: "Europe/Berlin" });
+  const span = ts.at(-1) - ts[0], labelEvery = span > 8 * 864e5 ? 2 : 1;
+  let n = 0;
+  s.forEach((r, k) => {
+    if (r[0].slice(11, 13) !== "00") return;
+    const px = x(ts[k]);
+    g += `<line x1="${px}" x2="${px}" y1="${T}" y2="${H - B}" stroke="var(--line)" stroke-dasharray="2 3"/>`;
+    if (n++ % labelEvery === 0) g += `<text x="${px + 3}" y="${H - 7}">${dayFmt.format(ts[k])}</text>`;
+  });
+  g += `<path d="${line(2)}" fill="none" stroke="var(--muted)" stroke-width="1.5"/>`;
+  g += `<path d="${line(1)}" fill="none" stroke="var(--trace)" stroke-width="2.25" stroke-linejoin="round"/>`;
+  svg.innerHTML = g;
+}
+
+function renderList(stations) {
+  $("list").innerHTML = stations.slice(0, 10).map((s) =>
+    `<li><span class="n">${esc(s.name)}</span><span class="p">${priceHtml(s.price)}</span><span class="a">${esc(s.address)}</span></li>`
+  ).join("") || "<li>Keine offene Tankstelle gemeldet.</li>";
+}
+
+function renderFrequent() {
+  $("frequent").innerHTML = DATA.frequent_cheapest.map((f) => {
+    const [name, ...rest] = f.station.split(", ");
+    return `<li><span class="n">${esc(name)}</span><span class="p">${Math.round(f.share * 100)} %</span><span class="a">${esc(rest.join(", "))}</span></li>`;
+  }).join("") || "<li>Noch keine Daten.</li>";
+}
+
+function renderDetour() {
+  const a = DATA.agent, o = a.options || [];
+  $("detour-intro").textContent = `Ersparnis für ${a.tank_liter} Liter gegenüber der nächstgelegenen offenen Tankstelle, Spritkosten für den Umweg (hin und zurück) schon abgezogen.`;
+  $("detour").innerHTML = o.map((x) => {
+    const sav = x.net_saving.toFixed(2).replace(".", ",");
+    const where = x.is_nearest ? "nächstgelegene" : `Umweg ca. ${Math.round(x.extra_km)} km`;
+    return `<li><span class="n">${esc(x.name)}, ${priceHtml(x.price)} €</span><span class="p${x.net_saving <= 0 ? " neg" : ""}">${x.is_nearest ? "±0" : (x.net_saving > 0 ? "+" : "") + sav} €</span><span class="a">${esc(x.address)}, ${where}</span></li>`;
+  }).join("") || "<li>Keine Daten.</li>";
+}
+
+function renderAgent() {
+  const a = DATA.agent, P = a.params, st = a.stats;
+  const pct = (v) => v === null ? "noch zu wenig Daten" : `${Math.round(v * 100)} % richtig`;
+  const facts = [
+    ["Benachrichtigungen", a.push_enabled ? "aktiv" : "aus", a.push_enabled ? "per ntfy aufs iPhone, max. Anzahl und Ruhezeiten laut config.json" : "Secret NTFY_TOPIC fehlt; Entscheidungen werden nur protokolliert"],
+    ["Entscheidung", a.llm_enabled ? "Claude" : "Regeln", a.llm_enabled ? "Claude wägt Preis, Prognose und Umweg ab; feste Grenzen gegen zu viele Nachrichten gelten trotzdem" : "Secret ANTHROPIC_API_KEY fehlt; feste Regeln entscheiden"],
+    ["Gelernte Günstig-Schwelle", a.threshold_price === null ? "noch offen" : `${plain(a.threshold_price)} €`, `günstigste ${Math.round(P.percentile * 100)} % der letzten 7 Tage`],
+    ["Warten lohnt sich ab", `${(P.min_saving * 100).toFixed(1).replace(".", ",")} Cent/l`, `Prognose-Korrektur ${Math.round(P.calib * 100)} %`],
+    ["Treffsicherheit „Jetzt tanken“", pct(st.now_hit), `${st.now_n} bewertete Empfehlungen`],
+    ["Treffsicherheit „Warten“", pct(st.wait_hit), `${st.wait_n} bewertete Empfehlungen`],
+  ];
+  $("agent-facts").innerHTML = facts.map(([t, v, s]) => `<div><dt>${esc(t)}</dt><dd>${esc(v)}<small>${esc(s)}</small></dd></div>`).join("");
+  const label = { push: "Nachricht gesendet", "push-entwurf": "Nachricht entworfen (Push nicht eingerichtet)", verzichtet: "Bewusst keine Nachricht", gelernt: "Regeln angepasst" };
+  $("journal").innerHTML = (a.journal || []).slice(0, 8).map((j) => `<li data-kind="${esc(j.kind)}">
+      <div class="m">${fmtWhen(j.ts)}, ${esc(label[j.kind] || j.kind)}${j.source ? ` (${esc(j.source)})` : ""}</div>
+      <div class="t">${esc(j.title)}</div>
+      <div class="r">${esc(j.text)}</div>
+      ${j.reasoning ? `<div class="m">Begründung: ${esc(j.reasoning)}</div>` : ""}
+    </li>`).join("") || "<li>Noch keine Aktionen. Der Agent meldet sich, sobald sich Tanken besonders lohnt.</li>";
+}
+
+function render() {
+  $("radius").textContent = String(DATA.radius_km).replace(".", ",");
+  const age = Math.max(0, Math.round((Date.now() - Date.parse(DATA.updated)) / 60000));
+  setHero(DATA.stations[0], `Stand ${fmtWhen(DATA.updated)} (vor ${age} Min.), ${DATA.open_count} offene Tankstellen, Verlauf über ${DATA.span_days.toFixed(1).replace(".", ",")} Tage`, false);
+  if (DATA.stations[0]) renderRec(DATA.stations[0].price);
+  renderFacts(); renderHeat(); renderChart(); renderList(DATA.stations); renderFrequent();
+  renderDetour(); renderAgent();
+}
+
+async function load() {
+  msg("");
+  $("btn-reload").disabled = true;
+  try {
+    const r = await fetch(`data/data.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    DATA = await r.json();
+    render();
+  } catch (e) {
+    msg("Noch keine Daten gefunden. Prüfe auf GitHub unter Actions, ob der Workflow „Spritpreise“ schon erfolgreich gelaufen ist.");
+  } finally {
+    $("btn-reload").disabled = false;
+  }
+}
+
+function loadCfg() { try { return JSON.parse(localStorage.getItem(CFG_KEY)); } catch { return null; } }
+
+async function live() {
+  const cfg = loadCfg();
+  if (!cfg || !cfg.key) { openSettings(); return; }
+  msg("");
+  $("btn-live").disabled = true;
+  try {
+    const q = new URLSearchParams({ lat: cfg.lat, lng: cfg.lng, rad: DATA ? DATA.radius_km : 15, sort: "price", type: "e5", apikey: cfg.key });
+    const r = await fetch(`https://creativecommons.tankerkoenig.de/json/list.php?${q}`);
+    const p = await r.json();
+    if (!p.ok) throw new Error(`Tankerkönig meldet: ${p.message || "unbekannter Fehler"}`);
+    const tidy = (t) => { t = (t || "").trim(); return t === t.toUpperCase() ? t.toLowerCase().replace(/(^|[\s-])\S/g, (c) => c.toUpperCase()) : t; };
+    const st = p.stations
+      .filter((s) => s.isOpen && typeof s.price === "number" && s.price > 0)
+      .sort((a, b) => a.price - b.price)
+      .map((s) => ({
+        name: tidy(s.brand) || tidy(s.name) || "Tankstelle",
+        address: [[tidy(s.street), (s.houseNumber || "").trim()].filter(Boolean).join(" "), tidy(s.place)].filter(Boolean).join(", ")
+      , price: s.price }));
+    const time = new Date().toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Berlin" });
+    setHero(st[0], `Live abgefragt um ${time} Uhr, ${st.length} offene Tankstellen`, true);
+    renderList(st);
+    if (st[0] && DATA) renderRec(st[0].price);
+  } catch (e) {
+    msg(e instanceof TypeError
+      ? "Live-Abfrage vom Browser aus nicht möglich. Alternative: auf GitHub unter Actions › Spritpreise › Run workflow starten, nach etwa 2 Minuten „Daten neu laden“."
+      : e.message);
+  } finally {
+    $("btn-live").disabled = false;
+  }
+}
+
+function openSettings() {
+  const c = loadCfg() || {};
+  $("f-key").value = c.key || ""; $("f-lat").value = c.lat || ""; $("f-lng").value = c.lng || "";
+  $("dlg").showModal();
+}
+$("dlg").addEventListener("close", () => {
+  if ($("dlg").returnValue !== "save") return;
+  const num = (v) => v.trim().replace(",", ".");
+  try {
+    localStorage.setItem(CFG_KEY, JSON.stringify({ key: $("f-key").value.trim(), lat: num($("f-lat").value), lng: num($("f-lng").value) }));
+    live();
+  } catch { msg("Einstellungen konnten in diesem Browser nicht gespeichert werden."); }
+});
+
+$("btn-live").addEventListener("click", live);
+$("btn-reload").addEventListener("click", load);
+$("btn-settings").addEventListener("click", openSettings);
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => DATA && renderChart(), 150); });
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") load(); });
+load();
+</script>
+</body>
+</html>
