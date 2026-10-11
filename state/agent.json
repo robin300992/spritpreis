@@ -1,0 +1,10 @@
+{
+ "params": {
+  "percentile": 0.2,
+  "min_saving": 0.015,
+  "calib": 1.0
+ },
+ "decisions": [],
+ "journal": [],
+ "last_learn": "2026-10-11"
+}
