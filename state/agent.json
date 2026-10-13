@@ -4,7 +4,14 @@
   "min_saving": 0.015,
   "calib": 1.0
  },
- "decisions": [],
+ "decisions": [
+  {
+   "ts": "2026-10-13T17:03:00+02:00",
+   "price": 2.119,
+   "kind": "now",
+   "saving": 0.007
+  }
+ ],
  "journal": [],
  "last_learn": "2026-10-13"
 }
