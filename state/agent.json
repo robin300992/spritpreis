@@ -905,6 +905,15 @@
    "kind": "gelernt",
    "title": "Regeln angepasst",
    "text": "„Jetzt tanken“ war in 57% der Fälle zu früh, Schwelle wird strenger: Günstig-Schwelle 18 % → 16 %."
+  },
+  {
+   "ts": "2026-10-17T09:41:00+02:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 2,129 €",
+   "text": "Aral, Hohenzollerndamm 97, Berlin, nächstgelegene Tankstelle.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 2.089
   }
  ],
  "last_learn": "2026-10-17"
