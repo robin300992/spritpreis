@@ -1,6 +1,6 @@
 {
  "params": {
-  "percentile": 0.16,
+  "percentile": 0.14,
   "min_saving": 0.015,
   "calib": 1.0
  },
@@ -1020,6 +1020,12 @@
    "price": 2.089,
    "kind": "now",
    "saving": 0.0147
+  },
+  {
+   "ts": "2026-10-18T03:10:00+02:00",
+   "price": 2.089,
+   "kind": "now",
+   "saving": 0.0192
   }
  ],
  "journal": [
@@ -1097,7 +1103,13 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 2.069
+  },
+  {
+   "ts": "2026-10-18T03:10:00+02:00",
+   "kind": "gelernt",
+   "title": "Regeln angepasst",
+   "text": "„Jetzt tanken“ war in 59% der Fälle zu früh, Schwelle wird strenger: Günstig-Schwelle 16 % → 14 %."
   }
  ],
- "last_learn": "2026-10-17"
+ "last_learn": "2026-10-18"
 }
