@@ -1269,7 +1269,11 @@
    "ts": "2026-10-18T22:17:00+02:00",
    "price": 2.089,
    "kind": "now",
-   "saving": 0.013
+   "saving": 0.013,
+   "outcome": {
+    "regret": 0.03
+   },
+   "evaluated": "2026-10-19T10:55:00+02:00"
   },
   {
    "ts": "2026-10-18T23:18:00+02:00",
@@ -1465,6 +1469,15 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 2.069
+  },
+  {
+   "ts": "2026-10-19T10:55:00+02:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 2,089 €",
+   "text": "Aral, Hohenzollerndamm 97, Berlin, nächstgelegene Tankstelle.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 2.049
   }
  ],
  "last_learn": "2026-10-19"
