@@ -1794,6 +1794,12 @@
    "price": 2.029,
    "kind": "now",
    "saving": 0.0333
+  },
+  {
+   "ts": "2026-10-21T07:04:00+02:00",
+   "price": 2.029,
+   "kind": "now",
+   "saving": 0.0266
   }
  ],
  "journal": [
@@ -1943,6 +1949,15 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 2.049
+  },
+  {
+   "ts": "2026-10-21T07:04:00+02:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 2,029 €",
+   "text": "ORLEN Express, Otto-Suhr-Allee 132, Berlin, Umweg ca. 8 km, spart netto 0,98 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 2.029
   }
  ],
  "last_learn": "2026-10-21"
