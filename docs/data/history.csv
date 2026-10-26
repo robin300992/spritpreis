@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-12T07:48:00+02:00,2.099,2.129,2.129,198,e1a15081-257b-9107-e040-0b0a3dfe563c,"Hem, Straße vor Schönholz 3, Berlin"
-2026-10-12T08:21:00+02:00,2.099,2.129,2.129,198,e1a15081-257b-9107-e040-0b0a3dfe563c,"Hem, Straße vor Schönholz 3, Berlin"
 2026-10-12T08:58:00+02:00,2.099,2.129,2.129,198,e1a15081-257b-9107-e040-0b0a3dfe563c,"Hem, Straße vor Schönholz 3, Berlin"
 2026-10-12T09:24:00+02:00,2.099,2.129,2.129,198,e1a15081-257b-9107-e040-0b0a3dfe563c,"Hem, Straße vor Schönholz 3, Berlin"
 2026-10-12T09:50:00+02:00,2.099,2.129,2.129,198,e1a15081-257b-9107-e040-0b0a3dfe563c,"Hem, Straße vor Schönholz 3, Berlin"
@@ -564,3 +562,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-26T06:11:00+01:00,2.019,2.039,2.049,190,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-26T06:49:00+01:00,2.019,2.039,2.049,191,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-26T07:34:00+01:00,2.019,2.039,2.049,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
+2026-10-26T08:34:00+01:00,2.009,2.039,2.049,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
