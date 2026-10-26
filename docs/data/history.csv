@@ -1,7 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-12T15:11:00+02:00,2.099,2.149,2.159,198,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
-2026-10-12T15:47:00+02:00,2.099,2.149,2.159,198,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
-2026-10-12T16:19:00+02:00,2.099,2.139,2.159,198,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-12T16:51:00+02:00,2.099,2.139,2.159,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-12T17:17:00+02:00,2.099,2.139,2.159,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-12T17:49:00+02:00,2.099,2.139,2.159,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
@@ -557,3 +554,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-26T11:59:00+01:00,2.009,2.039,2.049,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-26T12:41:00+01:00,2.108,2.329,2.359,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-26T15:06:00+01:00,2.039,2.109,2.169,197,005056ba-7cb6-1ed2-bceb-6e844f9e6d20,"Star, Königin-Luise-Straße 22a, Berlin"
+2026-10-26T16:41:00+01:00,2.039,2.049,2.099,196,005056ba-7cb6-1ed2-bceb-6e844f9e6d20,"Star, Königin-Luise-Straße 22a, Berlin"
