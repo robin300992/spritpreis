@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-12T19:20:00+02:00,2.099,2.139,2.149,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
-2026-10-12T19:46:00+02:00,2.099,2.139,2.149,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-12T20:14:00+02:00,2.099,2.139,2.149,196,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-12T20:43:00+02:00,2.099,2.139,2.149,196,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-12T21:03:00+02:00,2.099,2.139,2.149,190,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
@@ -552,3 +550,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-26T17:33:00+01:00,2.039,2.049,2.059,196,005056ba-7cb6-1ed2-bceb-6e844f9e6d20,"Star, Königin-Luise-Straße 22a, Berlin"
 2026-10-26T18:25:00+01:00,2.029,2.049,2.059,196,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
 2026-10-26T19:06:00+01:00,2.029,2.049,2.059,196,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
+2026-10-26T19:59:00+01:00,2.029,2.049,2.049,196,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
