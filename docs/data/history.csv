@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-12T02:30:00+02:00,2.099,2.129,2.139,104,51d4b6a9-a095-1aa0-e100-80009459e03a,"Jet, Storkower Str. 126-130, Berlin"
 2026-10-12T03:06:00+02:00,2.099,2.129,2.139,102,51d4b6a9-a095-1aa0-e100-80009459e03a,"Jet, Storkower Str. 126-130, Berlin"
 2026-10-12T03:33:00+02:00,2.099,2.129,2.139,104,51d4b6a9-a095-1aa0-e100-80009459e03a,"Jet, Storkower Str. 126-130, Berlin"
 2026-10-12T03:58:00+02:00,2.099,2.129,2.139,104,51d4b6a9-a095-1aa0-e100-80009459e03a,"Jet, Storkower Str. 126-130, Berlin"
@@ -567,3 +566,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-26T00:37:00+01:00,2.029,2.039,2.049,104,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-26T01:01:00+01:00,2.029,2.039,2.049,104,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-26T02:07:00+01:00,2.029,2.039,2.049,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
+2026-10-26T02:55:00+01:00,2.029,2.039,2.049,104,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
