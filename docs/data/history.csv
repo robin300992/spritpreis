@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-13T21:02:00+02:00,2.119,2.149,2.159,189,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
 2026-10-13T21:45:00+02:00,2.119,2.149,2.159,188,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
 2026-10-13T22:12:00+02:00,2.119,2.149,2.169,120,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
 2026-10-13T22:51:00+02:00,2.119,2.149,2.169,116,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
@@ -531,3 +530,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-27T19:08:00+01:00,1.979,2.009,2.019,197,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
 2026-10-27T19:55:00+01:00,1.979,2.009,2.019,197,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-27T20:37:00+01:00,1.979,2.009,2.019,196,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
+2026-10-27T21:19:00+01:00,1.979,2.009,2.019,190,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
