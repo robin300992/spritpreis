@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-13T17:36:00+02:00,2.119,2.149,2.159,196,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
-2026-10-13T18:01:00+02:00,2.119,2.149,2.159,196,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
 2026-10-13T18:35:00+02:00,2.119,2.149,2.159,196,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
 2026-10-13T19:01:00+02:00,2.119,2.149,2.159,196,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
 2026-10-13T19:33:00+02:00,2.119,2.149,2.159,196,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
@@ -534,3 +532,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-27T15:42:00+01:00,2.009,2.071,2.179,198,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
 2026-10-27T16:30:00+01:00,2.009,2.039,2.089,198,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
 2026-10-27T17:28:00+01:00,1.999,2.029,2.039,197,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
+2026-10-27T18:18:00+01:00,1.989,2.019,2.029,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
