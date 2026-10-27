@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-13T04:48:00+02:00,2.099,2.139,2.159,106,52293830-5847-06d0-e100-80009459e02c,"Jet, Holzhauser Str. 34, Berlin"
 2026-10-13T05:14:00+02:00,2.099,2.139,2.149,127,52293830-5847-06d0-e100-80009459e02c,"Jet, Holzhauser Str. 34, Berlin"
 2026-10-13T05:40:00+02:00,2.099,2.139,2.149,130,52293830-5847-06d0-e100-80009459e02c,"Jet, Holzhauser Str. 34, Berlin"
 2026-10-13T06:01:00+02:00,2.089,2.139,2.149,190,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
@@ -544,3 +543,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-27T03:07:00+01:00,2.029,2.049,2.059,102,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-27T03:45:00+01:00,2.029,2.049,2.059,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-27T04:27:00+01:00,2.029,2.049,2.059,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
+2026-10-27T05:08:00+01:00,2.029,2.049,2.059,127,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
