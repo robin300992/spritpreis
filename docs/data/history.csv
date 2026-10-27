@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-13T11:00:00+02:00,2.089,2.129,2.139,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-13T11:35:00+02:00,2.089,2.129,2.139,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-13T12:00:00+02:00,2.089,2.129,2.139,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-13T12:35:00+02:00,2.119,2.329,2.349,197,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
@@ -539,3 +538,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-27T09:25:00+01:00,2.019,2.039,2.049,198,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-27T10:11:00+01:00,2.019,2.039,2.049,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-27T10:54:00+01:00,2.009,2.039,2.039,198,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
+2026-10-27T11:31:00+01:00,2.009,2.029,2.039,198,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
