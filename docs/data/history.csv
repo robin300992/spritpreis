@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-13T12:35:00+02:00,2.119,2.329,2.349,197,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
-2026-10-13T13:01:00+02:00,2.119,2.329,2.339,197,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
 2026-10-13T13:34:00+02:00,2.119,2.289,2.319,197,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
 2026-10-13T14:00:00+02:00,2.119,2.169,2.279,197,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
 2026-10-13T14:43:00+02:00,2.119,2.159,2.179,197,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
@@ -538,3 +536,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-27T10:54:00+01:00,2.009,2.039,2.039,198,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-27T11:31:00+01:00,2.009,2.029,2.039,198,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-27T12:19:00+01:00,2.019,2.329,2.349,198,005056ba-7cb6-1ed2-bceb-9d9e89b4cd3c,"Star, Oraniendamm 28, Berlin"
+2026-10-27T13:04:00+01:00,2.019,2.329,2.339,198,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
