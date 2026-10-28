@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-14T22:05:00+02:00,2.099,2.119,2.129,120,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
 2026-10-14T22:43:00+02:00,2.099,2.119,2.129,116,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
 2026-10-14T23:12:00+02:00,2.099,2.119,2.129,105,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
 2026-10-14T23:48:00+02:00,2.099,2.129,2.129,102,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
@@ -521,3 +520,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-28T20:24:00+01:00,1.979,2.009,2.009,196,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-28T21:11:00+01:00,1.979,1.999,2.009,190,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
 2026-10-28T21:55:00+01:00,1.979,1.999,2.009,189,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
+2026-10-28T22:32:00+01:00,1.979,2.009,2.009,116,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
