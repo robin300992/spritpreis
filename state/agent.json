@@ -3260,7 +3260,11 @@
    "ts": "2026-10-27T19:08:00+01:00",
    "price": 1.979,
    "kind": "now",
-   "saving": 0.0051
+   "saving": 0.0051,
+   "outcome": {
+    "regret": 0.0
+   },
+   "evaluated": "2026-10-28T07:19:00+01:00"
   },
   {
    "ts": "2026-10-27T20:37:00+01:00",
@@ -3327,6 +3331,12 @@
    "price": 1.979,
    "kind": "now",
    "saving": 0.0335
+  },
+  {
+   "ts": "2026-10-28T07:19:00+01:00",
+   "price": 1.979,
+   "kind": "now",
+   "saving": 0.033
   }
  ],
  "journal": [
@@ -3566,6 +3576,15 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 2.009
+  },
+  {
+   "ts": "2026-10-28T07:19:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,999 €",
+   "text": "Bavaria Petrol, Heilbronner Straße 14-15, Berlin, Umweg ca. 4 km, spart netto 0,85 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 1.979
   }
  ],
  "last_learn": "2026-10-28"
