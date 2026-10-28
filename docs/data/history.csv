@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-14T00:56:00+02:00,2.119,2.149,2.169,104,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
 2026-10-14T01:22:00+02:00,2.119,2.149,2.169,104,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
 2026-10-14T01:52:00+02:00,2.119,2.149,2.169,104,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
 2026-10-14T02:28:00+02:00,2.119,2.149,2.169,103,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
@@ -530,3 +529,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-27T23:29:00+01:00,1.979,2.009,2.019,105,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-28T00:06:00+01:00,1.979,2.009,2.019,102,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-28T00:42:00+01:00,1.979,2.009,2.019,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
+2026-10-28T01:13:00+01:00,1.979,2.009,2.019,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
