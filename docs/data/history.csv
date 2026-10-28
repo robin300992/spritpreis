@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-14T14:54:00+02:00,2.119,2.139,2.179,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
-2026-10-14T15:32:00+02:00,2.119,2.139,2.159,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-14T16:11:00+02:00,2.119,2.139,2.139,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-14T16:48:00+02:00,2.119,2.139,2.139,196,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-10-14T17:28:00+02:00,2.119,2.129,2.139,196,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
@@ -524,3 +522,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-28T12:57:00+01:00,2.048,2.309,2.339,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-28T13:47:00+01:00,2.048,2.299,2.309,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-28T14:50:00+01:00,2.048,2.149,2.274,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-10-28T15:46:00+01:00,2.019,2.099,2.149,198,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
