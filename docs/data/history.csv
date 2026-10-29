@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-15T17:30:00+02:00,2.089,2.119,2.134,196,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
-2026-10-15T18:12:00+02:00,2.079,2.109,2.119,196,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-10-15T18:51:00+02:00,2.079,2.099,2.119,196,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-10-15T19:26:00+02:00,2.079,2.099,2.109,196,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-10-15T19:58:00+02:00,2.079,2.099,2.109,196,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
@@ -510,3 +508,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-29T15:16:00+01:00,2.048,2.169,2.269,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-29T16:21:00+01:00,2.048,2.159,2.219,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-29T17:22:00+01:00,2.048,2.139,2.159,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-10-29T18:20:00+01:00,2.048,2.129,2.139,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
