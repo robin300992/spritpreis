@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-15T14:40:00+02:00,2.089,2.139,2.189,197,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
 2026-10-15T15:23:00+02:00,2.089,2.139,2.159,197,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
 2026-10-15T16:09:00+02:00,2.089,2.139,2.139,197,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
 2026-10-15T16:46:00+02:00,2.089,2.129,2.139,196,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
@@ -511,3 +510,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-29T12:17:00+01:00,2.048,2.329,2.339,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-29T13:11:00+01:00,2.048,2.299,2.309,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-29T14:13:00+01:00,2.048,2.289,2.309,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-10-29T15:16:00+01:00,2.048,2.169,2.269,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
