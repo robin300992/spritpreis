@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-15T23:44:00+02:00,2.069,2.099,2.109,103,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-16T00:10:00+02:00,2.069,2.099,2.109,102,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-16T00:43:00+02:00,2.069,2.099,2.109,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-16T01:05:00+02:00,2.069,2.099,2.109,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
@@ -507,3 +506,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-29T21:40:00+01:00,2.019,2.059,2.089,189,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-29T22:21:00+01:00,2.009,2.069,2.084,120,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-29T23:09:00+01:00,2.029,2.069,2.089,105,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
+2026-10-29T23:51:00+01:00,2.029,2.069,2.089,102,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
