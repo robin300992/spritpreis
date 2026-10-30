@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-16T14:55:00+02:00,2.129,2.189,2.259,197,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-16T15:36:00+02:00,2.129,2.159,2.209,197,005056ba-7cb6-1ed2-bceb-6e844f9e6d20,"Star, Königin-Luise-Straße 22a, Berlin"
 2026-10-16T16:14:00+02:00,2.129,2.139,2.179,197,005056ba-7cb6-1ed2-bceb-6e844f9e6d20,"Star, Königin-Luise-Straße 22a, Berlin"
 2026-10-16T16:53:00+02:00,2.119,2.139,2.159,196,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
@@ -500,3 +499,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-30T12:30:00+01:00,2.048,2.319,2.329,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-30T13:20:00+01:00,2.048,2.309,2.319,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-30T14:31:00+01:00,2.048,2.272,2.299,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-10-30T15:36:00+01:00,2.048,2.199,2.264,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
