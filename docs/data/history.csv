@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-17T22:17:00+02:00,2.089,2.109,2.119,120,e1a15081-257b-9107-e040-0b0a3dfe563c,"Hem, Straße vor Schönholz 3, Berlin"
-2026-10-17T22:53:00+02:00,2.089,2.109,2.119,117,e1a15081-257b-9107-e040-0b0a3dfe563c,"Hem, Straße vor Schönholz 3, Berlin"
 2026-10-17T23:19:00+02:00,2.089,2.109,2.119,105,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-17T23:51:00+02:00,2.089,2.111,2.119,102,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-18T00:17:00+02:00,2.089,2.109,2.119,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
@@ -484,3 +482,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-31T20:59:00+01:00,2.048,2.124,2.139,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-31T21:34:00+01:00,2.048,2.109,2.139,189,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-31T22:15:00+01:00,2.048,2.109,2.129,120,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-10-31T23:00:00+01:00,2.048,2.109,2.129,105,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
