@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-17T10:42:00+02:00,2.069,2.109,2.119,196,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-17T11:08:00+02:00,2.069,2.109,2.119,196,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-17T11:41:00+02:00,2.069,2.109,2.119,196,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-17T12:06:00+02:00,2.069,2.309,2.329,196,579d25fd-acb9-445a-9494-f7fe0fa7ce4a,"Elan, Storkower Str. 116, Berlin"
@@ -489,3 +488,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-31T08:27:00+01:00,2.009,2.039,2.059,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-31T09:17:00+01:00,2.009,2.029,2.049,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-31T10:11:00+01:00,2.009,2.029,2.039,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-10-31T10:53:00+01:00,2.009,2.029,2.039,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
