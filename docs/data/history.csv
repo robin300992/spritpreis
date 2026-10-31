@@ -1,7 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-17T07:23:00+02:00,2.099,2.119,2.129,189,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
-2026-10-17T07:54:00+02:00,2.099,2.119,2.129,190,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
-2026-10-17T08:25:00+02:00,2.099,2.119,2.129,196,005056ba-7cb6-1ed5-a7ce-94793a301eaf,"Star, Waidmannsluster Damm 54, Berlin"
 2026-10-17T09:08:00+02:00,2.099,2.119,2.119,196,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-17T09:41:00+02:00,2.089,2.119,2.119,196,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-17T10:05:00+02:00,2.079,2.119,2.119,196,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
@@ -492,3 +489,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-10-31T05:59:00+01:00,2.019,2.059,2.079,112,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-31T06:38:00+01:00,2.009,2.059,2.074,156,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-31T07:19:00+01:00,2.009,2.049,2.069,190,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-10-31T08:27:00+01:00,2.009,2.039,2.059,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
