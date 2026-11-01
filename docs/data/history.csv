@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-18T10:42:00+02:00,2.059,2.089,2.099,194,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
-2026-10-18T11:08:00+02:00,2.059,2.089,2.099,194,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-18T11:41:00+02:00,2.059,2.089,2.099,194,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-18T12:06:00+02:00,2.059,2.319,2.329,194,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-18T12:41:00+02:00,2.148,2.309,2.329,194,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
@@ -477,3 +475,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-01T08:33:00+01:00,2.039,2.069,2.089,194,e1a15081-2580-9107-e040-0b0a3dfe563c,"Hem, Attilastr. 124, Berlin"
 2026-11-01T09:27:00+01:00,2.019,2.049,2.079,195,005056ba-7cb6-1ed2-bceb-6dbab19bed20,"Star, Steglitzer Damm 77, Berlin"
 2026-11-01T10:17:00+01:00,2.019,2.039,2.059,195,9a0eb832-f276-47cb-92ed-5aa588da780e,"Sprint, Barnackufer 25, Berlin"
+2026-11-01T11:10:00+01:00,2.019,2.029,2.049,195,005056ba-7cb6-1ed2-bceb-6e844f9e6d20,"Star, Königin-Luise-Straße 22a, Berlin"
