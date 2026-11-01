@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-18T12:41:00+02:00,2.148,2.309,2.329,194,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-18T13:05:00+02:00,2.148,2.309,2.319,194,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-18T13:38:00+02:00,2.148,2.299,2.309,194,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-18T14:02:00+02:00,2.148,2.289,2.299,194,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
@@ -476,3 +475,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-01T11:10:00+01:00,2.019,2.029,2.049,195,005056ba-7cb6-1ed2-bceb-6e844f9e6d20,"Star, Königin-Luise-Straße 22a, Berlin"
 2026-11-01T11:50:00+01:00,2.019,2.029,2.049,195,005056ba-7cb6-1ed2-bceb-6e844f9e6d20,"Star, Königin-Luise-Straße 22a, Berlin"
 2026-11-01T12:26:00+01:00,2.048,2.329,2.339,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-11-01T13:01:00+01:00,2.048,2.319,2.329,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
