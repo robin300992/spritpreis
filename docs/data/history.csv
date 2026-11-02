@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-19T12:17:00+02:00,2.089,2.319,2.339,197,2c21b856-4850-0952-e100-00000630df04,"Agip Eni, Belßstr. 51, Berlin"
 2026-10-19T13:01:00+02:00,2.108,2.299,2.319,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-19T13:45:00+02:00,2.108,2.299,2.299,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-10-19T14:32:00+02:00,2.108,2.279,2.299,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
@@ -463,3 +462,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-02T09:21:00+01:00,2.009,2.029,2.049,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-02T10:33:00+01:00,2.009,2.029,2.039,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-02T11:38:00+01:00,2.009,2.029,2.029,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-02T12:33:00+01:00,2.019,2.319,2.329,197,005056ba-7cb6-1ed2-bceb-99abbf748d3b,"Star, Johannisthaler Ch. 263-273, Berlin"
