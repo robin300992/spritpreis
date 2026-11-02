@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-20T00:24:00+02:00,2.089,2.109,2.119,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-20T00:56:00+02:00,2.089,2.109,2.119,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-20T01:26:00+02:00,2.089,2.109,2.119,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-20T01:56:00+02:00,2.089,2.109,2.119,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
@@ -458,3 +457,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-02T22:24:00+01:00,1.989,2.009,2.019,119,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
 2026-11-02T23:11:00+01:00,1.989,2.009,2.019,104,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
 2026-11-02T23:54:00+01:00,1.989,2.009,2.019,101,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
+2026-11-03T00:30:00+01:00,1.989,2.009,2.019,103,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
