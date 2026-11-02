@@ -2,20 +2,9 @@
  "params": {
   "percentile": 0.1,
   "min_saving": 0.011,
-  "calib": 1.4414
+  "calib": 1.3626
  },
  "decisions": [
-  {
-   "ts": "2026-10-19T03:13:00+02:00",
-   "price": 2.089,
-   "kind": "wait",
-   "saving": 0.0211,
-   "target": "2026-10-19T11:00:00+02:00",
-   "outcome": {
-    "realized": 0.04
-   },
-   "evaluated": "2026-10-19T15:25:00+02:00"
-  },
   {
    "ts": "2026-10-19T04:24:00+02:00",
    "price": 2.089,
@@ -3254,14 +3243,22 @@
    "price": 2.048,
    "kind": "wait",
    "saving": 0.0347,
-   "target": "2026-11-01T21:00:00+01:00"
+   "target": "2026-11-01T21:00:00+01:00",
+   "outcome": {
+    "realized": 0.0
+   },
+   "evaluated": "2026-11-02T03:31:00+01:00"
   },
   {
    "ts": "2026-11-01T15:29:00+01:00",
    "price": 2.048,
    "kind": "wait",
    "saving": 0.0316,
-   "target": "2026-11-01T21:00:00+01:00"
+   "target": "2026-11-01T21:00:00+01:00",
+   "outcome": {
+    "realized": 0.0
+   },
+   "evaluated": "2026-11-02T03:31:00+01:00"
   },
   {
    "ts": "2026-11-01T16:09:00+01:00",
@@ -3336,6 +3333,13 @@
    "price": 2.048,
    "kind": "wait",
    "saving": 0.0324,
+   "target": "2026-11-02T11:00:00+01:00"
+  },
+  {
+   "ts": "2026-11-02T03:31:00+01:00",
+   "price": 2.048,
+   "kind": "wait",
+   "saving": 0.0346,
    "target": "2026-11-02T11:00:00+01:00"
   }
  ],
@@ -3609,7 +3613,13 @@
    "kind": "gelernt",
    "title": "Regeln angepasst",
    "text": "Tatsächliche Ersparnis beim Warten lag bei 87% der Prognose: Prognose-Korrektur 150 % → 144 %."
+  },
+  {
+   "ts": "2026-11-02T03:31:00+01:00",
+   "kind": "gelernt",
+   "title": "Regeln angepasst",
+   "text": "Tatsächliche Ersparnis beim Warten lag bei 82% der Prognose: Prognose-Korrektur 144 % → 136 %."
   }
  ],
- "last_learn": "2026-11-01"
+ "last_learn": "2026-11-02"
 }
