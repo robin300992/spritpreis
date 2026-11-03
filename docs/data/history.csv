@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-20T06:43:00+02:00,2.089,2.109,2.119,191,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
-2026-10-20T07:14:00+02:00,2.079,2.099,2.109,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-20T07:50:00+02:00,2.079,2.099,2.109,197,51d4b703-a095-1aa0-e100-80009459e03a,"Jet, Kurt-Schumacher-Damm 36, Berlin"
 2026-10-20T08:29:00+02:00,2.069,2.099,2.109,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-20T11:27:00+02:00,2.049,2.079,2.089,197,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
@@ -455,3 +453,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-03T04:24:00+01:00,1.989,2.009,2.019,103,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
 2026-11-03T05:22:00+01:00,1.989,2.009,2.019,127,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
 2026-11-03T06:24:00+01:00,1.979,2.009,2.019,191,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
+2026-11-03T07:23:00+01:00,1.979,2.009,2.019,198,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
