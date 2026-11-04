@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-21T22:31:00+02:00,2.049,2.059,2.069,116,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
-2026-10-21T23:12:00+02:00,2.049,2.059,2.069,105,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
 2026-10-21T23:50:00+02:00,2.049,2.059,2.069,102,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
 2026-10-22T00:24:00+02:00,2.049,2.059,2.069,104,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
 2026-10-22T00:57:00+02:00,2.049,2.059,2.069,104,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
@@ -436,3 +434,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-04T20:28:00+01:00,1.969,1.989,2.009,196,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-04T21:23:00+01:00,1.949,1.979,1.989,190,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-04T22:17:00+01:00,1.939,1.979,1.989,119,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-04T23:15:00+01:00,1.959,1.979,1.989,104,49d45108-e566-470e-aa7e-fd3c6590c683,"Shell, Manteuffelstr. 6-7, Berlin"
