@@ -1,7 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-21T11:11:00+02:00,2.029,2.059,2.069,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
-2026-10-21T11:48:00+02:00,2.029,2.059,2.069,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
-2026-10-21T12:27:00+02:00,2.059,2.319,2.339,197,163f01c1-13be-42c2-b9ac-2c2764ea9779,"Esso, Ruhlebener Str. 185, Berlin"
 2026-10-21T13:04:00+02:00,2.049,2.079,2.299,197,51d4b5dc-a095-1aa0-e100-80009459e03a,"Jet, Charlottenburger Ch. 47, Berlin"
 2026-10-21T13:45:00+02:00,2.039,2.059,2.079,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-10-21T14:31:00+02:00,2.039,2.059,2.069,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
@@ -443,3 +440,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-04T08:58:00+01:00,1.959,1.979,1.989,198,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-04T09:54:00+01:00,1.949,1.969,1.979,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-04T10:53:00+01:00,1.939,1.959,1.969,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-04T13:00:00+01:00,1.999,2.289,2.309,198,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
