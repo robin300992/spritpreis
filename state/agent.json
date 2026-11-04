@@ -3191,7 +3191,8 @@
    "ts": "2026-11-04T09:54:00+01:00",
    "price": 1.949,
    "kind": "now",
-   "saving": 0.0103
+   "saving": 0.0103,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-04T10:53:00+01:00",
@@ -3251,6 +3252,12 @@
    "price": 1.949,
    "kind": "now",
    "saving": 0.0099
+  },
+  {
+   "ts": "2026-11-04T22:17:00+01:00",
+   "price": 1.939,
+   "kind": "now",
+   "saving": 0.0109
   }
  ],
  "journal": [
