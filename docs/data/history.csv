@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-22T19:02:00+02:00,2.079,2.099,2.109,196,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
-2026-10-22T19:41:00+02:00,2.079,2.099,2.109,196,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
 2026-10-22T20:10:00+02:00,2.079,2.099,2.109,195,c1d9c3c2-a6de-4111-8e63-81bee1189b50,"Aral, Vor dem Schlesischen Tor, Berlin"
 2026-10-22T20:53:00+02:00,2.079,2.099,2.109,195,1723edea-8e01-4de3-8c5e-ca227a49e2c3,"Shell, Skalitzer Str. 48, Berlin"
 2026-10-22T21:28:00+02:00,2.079,2.099,2.109,189,1723edea-8e01-4de3-8c5e-ca227a49e2c3,"Shell, Skalitzer Str. 48, Berlin"
@@ -426,3 +424,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-05T16:52:00+01:00,2.018,2.089,2.099,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-05T18:00:00+01:00,1.999,2.059,2.079,197,53ace41c-0bc3-4e44-8c8e-f3e8f0b0f073,"Sprint, Hildburghauser Str. 27, Berlin"
 2026-11-05T18:57:00+01:00,1.989,2.009,2.049,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-05T19:51:00+01:00,1.959,1.999,2.019,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
