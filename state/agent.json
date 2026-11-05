@@ -2,20 +2,9 @@
  "params": {
   "percentile": 0.1,
   "min_saving": 0.011,
-  "calib": 1.2208
+  "calib": 1.1624
  },
  "decisions": [
-  {
-   "ts": "2026-10-22T02:32:00+02:00",
-   "price": 2.049,
-   "kind": "wait",
-   "saving": 0.0299,
-   "target": "2026-10-22T11:00:00+02:00",
-   "outcome": {
-    "realized": 0.02
-   },
-   "evaluated": "2026-10-22T14:32:00+02:00"
-  },
   {
    "ts": "2026-10-22T03:18:00+02:00",
    "price": 2.049,
@@ -3237,18 +3226,15 @@
    "price": 1.959,
    "kind": "now",
    "saving": 0.03
+  },
+  {
+   "ts": "2026-11-05T03:00:00+01:00",
+   "price": 1.959,
+   "kind": "now",
+   "saving": 0.0305
   }
  ],
  "journal": [
-  {
-   "ts": "2026-10-14T21:30:00+02:00",
-   "kind": "push",
-   "title": "Super E5 günstig: 2,139 €",
-   "text": "Aral, Hohenzollerndamm 97, Berlin, nächstgelegene Tankstelle.",
-   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
-   "source": "Regeln",
-   "price": 2.099
-  },
   {
    "ts": "2026-10-15T07:13:00+02:00",
    "kind": "push",
@@ -3572,7 +3558,13 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle; neuer 7-Tage-Tiefstpreis.",
    "source": "Regeln",
    "price": 1.939
+  },
+  {
+   "ts": "2026-11-05T03:00:00+01:00",
+   "kind": "gelernt",
+   "title": "Regeln angepasst",
+   "text": "Tatsächliche Ersparnis beim Warten lag bei 84% der Prognose: Prognose-Korrektur 122 % → 116 %."
   }
  ],
- "last_learn": "2026-11-04"
+ "last_learn": "2026-11-05"
 }
