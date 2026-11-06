@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-23T03:00:00+02:00,2.079,2.099,2.109,104,1723edea-8e01-4de3-8c5e-ca227a49e2c3,"Shell, Skalitzer Str. 48, Berlin"
-2026-10-23T03:40:00+02:00,2.079,2.099,2.109,104,1723edea-8e01-4de3-8c5e-ca227a49e2c3,"Shell, Skalitzer Str. 48, Berlin"
 2026-10-23T04:13:00+02:00,2.079,2.099,2.109,104,1723edea-8e01-4de3-8c5e-ca227a49e2c3,"Shell, Skalitzer Str. 48, Berlin"
 2026-10-23T04:52:00+02:00,2.079,2.099,2.109,106,1723edea-8e01-4de3-8c5e-ca227a49e2c3,"Shell, Skalitzer Str. 48, Berlin"
 2026-10-23T05:26:00+02:00,2.079,2.099,2.109,127,1723edea-8e01-4de3-8c5e-ca227a49e2c3,"Shell, Skalitzer Str. 48, Berlin"
@@ -422,3 +420,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-06T00:55:00+01:00,1.919,1.969,1.989,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-11-06T01:52:00+01:00,1.919,1.969,1.989,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-11-06T03:00:00+01:00,1.919,1.969,1.989,101,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
+2026-11-06T03:59:00+01:00,1.919,1.969,1.989,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
