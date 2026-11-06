@@ -3038,7 +3038,11 @@
    "ts": "2026-11-06T09:17:00+01:00",
    "price": 1.899,
    "kind": "now",
-   "saving": 0.0091
+   "saving": 0.0091,
+   "outcome": {
+    "regret": 0.0
+   },
+   "evaluated": "2026-11-06T21:55:00+01:00"
   },
   {
    "ts": "2026-11-06T10:25:00+01:00",
@@ -3123,15 +3127,6 @@
   }
  ],
  "journal": [
-  {
-   "ts": "2026-10-16T10:26:00+02:00",
-   "kind": "push",
-   "title": "Super E5 günstig: 2,099 €",
-   "text": "Aral, Hohenzollerndamm 97, Berlin, nächstgelegene Tankstelle.",
-   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle; neuer 7-Tage-Tiefstpreis.",
-   "source": "Regeln",
-   "price": 2.049
-  },
   {
    "ts": "2026-10-17T03:10:00+02:00",
    "kind": "gelernt",
@@ -3452,6 +3447,15 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 1.909
+  },
+  {
+   "ts": "2026-11-06T21:55:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,959 €",
+   "text": "Star, Königin-Luise-Straße 22a, Berlin, Umweg ca. 6 km, spart netto 4,45 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 1.929
   }
  ],
  "last_learn": "2026-11-06"
