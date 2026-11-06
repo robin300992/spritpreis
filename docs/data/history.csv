@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-23T12:26:00+02:00,2.089,2.329,2.349,197,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
-2026-10-23T13:01:00+02:00,2.089,2.259,2.329,197,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
 2026-10-23T13:46:00+02:00,2.089,2.249,2.269,197,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
 2026-10-23T14:27:00+02:00,2.089,2.249,2.259,197,e1a15081-257b-9107-e040-0b0a3dfe563c,"Hem, Straße vor Schönholz 3, Berlin"
 2026-10-23T15:14:00+02:00,2.089,2.189,2.239,197,2d3cf56e-d3a7-4d3f-9469-d1ba249a2fe3,"Sprint, Residenzstr. 79, Berlin"
@@ -417,3 +415,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-06T10:25:00+01:00,1.899,1.929,1.939,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-06T11:29:00+01:00,1.899,1.919,1.939,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-06T12:26:00+01:00,2.018,2.279,2.289,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-11-06T13:21:00+01:00,2.018,2.249,2.269,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
