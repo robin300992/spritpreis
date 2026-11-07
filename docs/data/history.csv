@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-24T05:51:00+02:00,2.059,2.079,2.089,120,51d4b703-a095-1aa0-e100-80009459e03a,"Jet, Kurt-Schumacher-Damm 36, Berlin"
 2026-10-24T06:23:00+02:00,2.059,2.079,2.089,158,51d4b703-a095-1aa0-e100-80009459e03a,"Jet, Kurt-Schumacher-Damm 36, Berlin"
 2026-10-24T06:58:00+02:00,2.059,2.079,2.089,159,51d4b703-a095-1aa0-e100-80009459e03a,"Jet, Kurt-Schumacher-Damm 36, Berlin"
 2026-10-24T07:27:00+02:00,2.059,2.079,2.089,190,51d4b703-a095-1aa0-e100-80009459e03a,"Jet, Kurt-Schumacher-Damm 36, Berlin"
@@ -409,3 +408,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-07T03:42:00+01:00,1.939,1.979,2.009,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-11-07T04:29:00+01:00,1.939,1.979,2.009,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-11-07T05:25:00+01:00,1.939,1.969,1.999,111,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
+2026-11-07T06:17:00+01:00,1.939,1.969,1.989,155,32f0afb4-754d-4ed9-af3c-26fc210d306f,"Sprint, Körnerstr. 48 a, Berlin"
