@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-24T19:52:00+02:00,2.039,2.059,2.059,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
-2026-10-24T20:21:00+02:00,2.039,2.059,2.059,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-10-24T22:17:00+02:00,2.029,2.049,2.059,127,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-24T22:53:00+02:00,2.029,2.049,2.059,124,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-24T23:20:00+02:00,2.029,2.049,2.059,113,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
@@ -400,3 +398,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-07T18:07:00+01:00,1.899,1.909,1.919,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-07T18:45:00+01:00,1.899,1.909,1.919,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-07T19:32:00+01:00,1.899,1.909,1.919,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
+2026-11-07T20:25:00+01:00,1.899,1.909,1.919,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
