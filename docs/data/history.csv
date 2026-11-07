@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-24T08:34:00+02:00,2.049,2.069,2.089,196,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-24T09:21:00+02:00,2.039,2.069,2.079,196,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-24T09:58:00+02:00,2.039,2.069,2.079,196,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
 2026-10-24T10:29:00+02:00,2.039,2.059,2.069,196,51d4b703-a095-1aa0-e100-80009459e03a,"Jet, Kurt-Schumacher-Damm 36, Berlin"
@@ -407,3 +406,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-07T06:17:00+01:00,1.939,1.969,1.989,155,32f0afb4-754d-4ed9-af3c-26fc210d306f,"Sprint, Körnerstr. 48 a, Berlin"
 2026-11-07T07:14:00+01:00,1.929,1.959,1.979,190,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-07T08:24:00+01:00,1.899,1.939,1.969,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-07T09:20:00+01:00,1.899,1.919,1.949,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
