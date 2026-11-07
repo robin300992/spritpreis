@@ -6,17 +6,6 @@
  },
  "decisions": [
   {
-   "ts": "2026-10-24T06:23:00+02:00",
-   "price": 2.059,
-   "kind": "wait",
-   "saving": 0.0313,
-   "target": "2026-10-24T11:00:00+02:00",
-   "outcome": {
-    "realized": 0.03
-   },
-   "evaluated": "2026-10-24T18:24:00+02:00"
-  },
-  {
    "ts": "2026-10-24T07:27:00+02:00",
    "price": 2.059,
    "kind": "wait",
@@ -3037,14 +3026,22 @@
    "price": 2.018,
    "kind": "wait",
    "saving": 0.0214,
-   "target": "2026-11-06T22:00:00+01:00"
+   "target": "2026-11-06T22:00:00+01:00",
+   "outcome": {
+    "realized": 0.089
+   },
+   "evaluated": "2026-11-07T07:14:00+01:00"
   },
   {
    "ts": "2026-11-06T19:13:00+01:00",
    "price": 1.999,
    "kind": "wait",
    "saving": 0.0149,
-   "target": "2026-11-06T22:00:00+01:00"
+   "target": "2026-11-06T22:00:00+01:00",
+   "outcome": {
+    "realized": 0.07
+   },
+   "evaluated": "2026-11-07T07:14:00+01:00"
   },
   {
    "ts": "2026-11-06T20:13:00+01:00",
@@ -3120,18 +3117,15 @@
    "kind": "wait",
    "saving": 0.0138,
    "target": "2026-11-07T11:00:00+01:00"
+  },
+  {
+   "ts": "2026-11-07T07:14:00+01:00",
+   "price": 1.929,
+   "kind": "now",
+   "saving": 0.0184
   }
  ],
  "journal": [
-  {
-   "ts": "2026-10-17T09:41:00+02:00",
-   "kind": "push",
-   "title": "Super E5 günstig: 2,129 €",
-   "text": "Aral, Hohenzollerndamm 97, Berlin, nächstgelegene Tankstelle.",
-   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
-   "source": "Regeln",
-   "price": 2.089
-  },
   {
    "ts": "2026-10-17T10:42:00+02:00",
    "kind": "push",
@@ -3452,6 +3446,15 @@
    "kind": "gelernt",
    "title": "Regeln angepasst",
    "text": "Tatsächliche Ersparnis beim Warten lag bei 90% der Prognose: Prognose-Korrektur 112 % → 109 %."
+  },
+  {
+   "ts": "2026-11-07T07:14:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,939 €",
+   "text": "Sprint, Mecklenburgische Str. 76, Berlin, Umweg ca. 5 km, spart netto 5,59 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 1.929
   }
  ],
  "last_learn": "2026-11-07"
