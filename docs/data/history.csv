@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-25T15:55:00+01:00,2.029,2.049,2.049,195,51d4b703-a095-1aa0-e100-80009459e03a,"Jet, Kurt-Schumacher-Damm 36, Berlin"
-2026-10-25T16:22:00+01:00,2.029,2.044,2.049,195,51d4b703-a095-1aa0-e100-80009459e03a,"Jet, Kurt-Schumacher-Damm 36, Berlin"
 2026-10-25T16:56:00+01:00,2.029,2.039,2.049,195,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-25T17:24:00+01:00,2.029,2.039,2.049,195,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-25T17:57:00+01:00,2.029,2.039,2.049,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
@@ -391,3 +389,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-08T14:24:00+01:00,2.018,2.229,2.249,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-08T15:14:00+01:00,2.018,2.159,2.199,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-08T15:55:00+01:00,2.018,2.069,2.149,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-11-08T16:28:00+01:00,2.018,2.054,2.099,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
