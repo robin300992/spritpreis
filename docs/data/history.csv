@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-25T17:57:00+01:00,2.029,2.039,2.049,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
-2026-10-25T18:24:00+01:00,2.029,2.039,2.049,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-10-25T18:53:00+01:00,2.029,2.039,2.049,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-10-25T19:22:00+01:00,2.029,2.039,2.049,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-10-25T20:00:00+01:00,2.029,2.039,2.049,193,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
@@ -390,3 +388,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-08T16:28:00+01:00,2.018,2.054,2.099,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-08T17:09:00+01:00,2.018,2.049,2.069,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-08T17:49:00+01:00,2.018,2.049,2.059,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-11-08T18:28:00+01:00,1.999,2.039,2.049,195,005056ba-7cb6-1ed2-bceb-99abbf748d3b,"Star, Johannisthaler Ch. 263-273, Berlin"
