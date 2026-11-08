@@ -3114,15 +3114,15 @@
    "price": 1.899,
    "kind": "now",
    "saving": 0.0154
+  },
+  {
+   "ts": "2026-11-08T07:16:00+01:00",
+   "price": 1.899,
+   "kind": "now",
+   "saving": 0.021
   }
  ],
  "journal": [
-  {
-   "ts": "2026-10-18T03:10:00+02:00",
-   "kind": "gelernt",
-   "title": "Regeln angepasst",
-   "text": "„Jetzt tanken“ war in 59% der Fälle zu früh, Schwelle wird strenger: Günstig-Schwelle 16 % → 14 %."
-  },
   {
    "ts": "2026-10-18T07:21:00+02:00",
    "kind": "push",
@@ -3443,6 +3443,15 @@
    "kind": "push",
    "title": "Super E5 günstig: 1,919 €",
    "text": "Star, Königin-Luise-Straße 22a, Berlin, Umweg ca. 6 km, spart netto 2,97 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 1.899
+  },
+  {
+   "ts": "2026-11-08T07:16:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,919 €",
+   "text": "Aral, Kurfuerstendamm 128, Berlin, Umweg ca. 2 km, spart netto 0,73 € pro Tankfüllung.",
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 1.899

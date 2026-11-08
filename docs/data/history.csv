@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-25T06:49:00+01:00,2.029,2.049,2.059,151,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-25T08:52:00+01:00,2.029,2.049,2.049,194,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-25T09:21:00+01:00,2.029,2.049,2.049,195,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-25T09:58:00+01:00,2.029,2.039,2.049,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
@@ -394,3 +393,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-08T04:18:00+01:00,1.899,1.909,1.919,103,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-11-08T05:23:00+01:00,1.899,1.909,1.919,111,2d3cf56e-d3a7-4d3f-9469-d1ba249a2fe3,"Sprint, Residenzstr. 79, Berlin"
 2026-11-08T06:19:00+01:00,1.899,1.909,1.919,145,2d3cf56e-d3a7-4d3f-9469-d1ba249a2fe3,"Sprint, Residenzstr. 79, Berlin"
+2026-11-08T07:16:00+01:00,1.899,1.909,1.919,179,2d3cf56e-d3a7-4d3f-9469-d1ba249a2fe3,"Sprint, Residenzstr. 79, Berlin"
