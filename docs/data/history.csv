@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-26T19:59:00+01:00,2.029,2.049,2.049,196,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
-2026-10-26T20:40:00+01:00,2.029,2.049,2.049,195,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
 2026-10-26T21:13:00+01:00,2.029,2.049,2.049,189,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
 2026-10-26T21:53:00+01:00,2.029,2.049,2.049,188,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
 2026-10-26T22:27:00+01:00,2.029,2.049,2.059,120,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
@@ -383,3 +381,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-09T17:57:00+01:00,2.018,2.049,2.059,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-09T18:54:00+01:00,1.999,2.019,2.039,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-09T19:47:00+01:00,1.979,2.009,2.019,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-09T20:50:00+01:00,1.949,1.999,2.009,196,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
