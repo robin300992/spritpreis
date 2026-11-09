@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-26T03:28:00+01:00,2.029,2.039,2.049,102,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-26T04:08:00+01:00,2.029,2.039,2.049,104,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-26T04:48:00+01:00,2.029,2.039,2.049,106,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-26T05:29:00+01:00,2.029,2.039,2.049,127,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
@@ -385,3 +384,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-09T00:46:00+01:00,1.929,1.969,1.999,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-11-09T01:49:00+01:00,1.929,1.969,1.999,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-11-09T03:00:00+01:00,1.929,1.969,1.999,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
+2026-11-09T03:58:00+01:00,1.929,1.969,1.999,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
