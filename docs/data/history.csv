@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-27T00:23:00+01:00,2.029,2.049,2.059,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
-2026-10-27T00:56:00+01:00,2.029,2.049,2.059,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-27T01:35:00+01:00,2.029,2.049,2.059,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-27T02:24:00+01:00,2.029,2.049,2.059,103,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-27T03:07:00+01:00,2.029,2.049,2.059,102,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
@@ -381,3 +379,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-09T22:35:00+01:00,1.939,1.979,1.999,115,e1a15081-2580-9107-e040-0b0a3dfe563c,"Hem, Attilastr. 124, Berlin"
 2026-11-09T23:27:00+01:00,1.939,1.979,2.004,104,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-11-10T00:15:00+01:00,1.939,1.979,2.009,101,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
+2026-11-10T01:02:00+01:00,1.939,1.979,2.009,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
