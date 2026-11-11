@@ -1,12 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-28T11:17:00+01:00,1.969,1.999,2.009,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
-2026-10-28T12:12:00+01:00,2.048,2.329,2.349,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-10-28T12:57:00+01:00,2.048,2.309,2.339,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-10-28T13:47:00+01:00,2.048,2.299,2.309,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-10-28T14:50:00+01:00,2.048,2.149,2.274,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-10-28T15:46:00+01:00,2.019,2.099,2.149,198,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
-2026-10-28T16:43:00+01:00,1.999,2.049,2.069,197,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
-2026-10-28T17:33:00+01:00,1.989,2.039,2.059,197,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-28T18:28:00+01:00,1.989,2.019,2.029,197,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-28T19:15:00+01:00,1.979,2.009,2.019,197,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-28T20:24:00+01:00,1.979,2.009,2.009,196,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
@@ -363,3 +355,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-10T23:40:00+01:00,1.889,1.909,1.919,103,95bfae72-560c-431f-82a1-6cf73a1ef456,"TotalEnergies, Spaethstr. 158, Berlin"
 2026-11-11T03:16:00+01:00,1.889,1.909,1.919,101,95bfae72-560c-431f-82a1-6cf73a1ef456,"TotalEnergies, Spaethstr. 158, Berlin"
 2026-11-11T10:44:00+01:00,1.879,1.899,1.899,198,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
+2026-11-11T18:28:00+01:00,1.849,1.899,1.899,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
