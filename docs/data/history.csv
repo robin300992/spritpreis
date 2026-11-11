@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-28T18:28:00+01:00,1.989,2.019,2.029,197,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-28T19:15:00+01:00,1.979,2.009,2.019,197,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-28T20:24:00+01:00,1.979,2.009,2.009,196,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-28T21:11:00+01:00,1.979,1.999,2.009,190,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
@@ -356,3 +355,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-11T03:16:00+01:00,1.889,1.909,1.919,101,95bfae72-560c-431f-82a1-6cf73a1ef456,"TotalEnergies, Spaethstr. 158, Berlin"
 2026-11-11T10:44:00+01:00,1.879,1.899,1.899,198,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-11T18:28:00+01:00,1.849,1.899,1.899,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
+2026-11-11T19:04:00+01:00,1.849,1.899,1.899,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
