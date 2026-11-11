@@ -10,7 +10,7 @@ import statistics
 import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -21,6 +21,7 @@ API = "https://creativecommons.tankerkoenig.de/json/list.php"
 RADIUS_KM = float(os.environ.get("RADIUS_KM", "15"))
 KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "14"))
 TOP_N = 15
+LUECKE_MAX_H = 8   # fehlende Stunden bis zu dieser Länge aus den Nachbarstunden auffüllen
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
@@ -99,16 +100,30 @@ def build_dashboard(now, stations, rows):
         for r in rows
     ]
 
-    # Tage mit Messungen in mindestens 18 verschiedenen Stunden gelten als vollständig.
-    by_day = defaultdict(list)
+    # Stundenwerte: Mittel aller Messungen einer Stunde. GitHub startet die Läufe nicht zuverlässig,
+    # deshalb werden Lücken bis LUECKE_MAX_H Stunden linear aus den Nachbarstunden aufgefüllt.
+    std = defaultdict(list)
     for t, p, _, _ in pts:
+        std[t.astimezone(timezone.utc).replace(minute=0, second=0, microsecond=0)].append(p)
+    stunden = {k: statistics.fmean(v) for k, v in std.items()}
+    bekannt = sorted(stunden)
+    for a, b in zip(bekannt, bekannt[1:]):
+        n = round((b - a).total_seconds() / 3600)
+        if 1 < n <= LUECKE_MAX_H:
+            for i in range(1, n):
+                stunden[a + timedelta(hours=i)] = stunden[a] + (stunden[b] - stunden[a]) * i / n
+    stunden = [(k.astimezone(TZ), p) for k, p in sorted(stunden.items())]
+
+    # Tage mit Werten in mindestens 18 verschiedenen Stunden gelten als vollständig.
+    by_day = defaultdict(list)
+    for t, p in stunden:
         by_day[t.date()].append((t.hour, p))
     full_days = {d for d, v in by_day.items() if len({h for h, _ in v}) >= 18}
     day_mean = {d: statistics.fmean(p for _, p in v) for d, v in by_day.items()}
 
     # Tagesprofil: Abweichung vom jeweiligen Tagesmittel (blendet Trends über mehrere Tage aus).
     dev, cell = defaultdict(list), defaultdict(list)
-    for t, p, _, _ in pts:
+    for t, p in stunden:
         cell[(t.weekday(), t.hour)].append(p)
         if t.date() in full_days:
             dev[t.hour].append(p - day_mean[t.date()])
