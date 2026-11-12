@@ -2,44 +2,9 @@
  "params": {
   "percentile": 0.1,
   "min_saving": 0.011,
-  "calib": 1.3756
+  "calib": 1.5
  },
  "decisions": [
-  {
-   "ts": "2026-10-29T01:38:00+01:00",
-   "price": 1.979,
-   "kind": "now",
-   "saving": 0.0387,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-10-29T02:39:00+01:00",
-   "price": 1.979,
-   "kind": "now",
-   "saving": 0.0357,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-10-29T03:28:00+01:00",
-   "price": 1.979,
-   "kind": "now",
-   "saving": 0.0405,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-10-29T04:17:00+01:00",
-   "price": 1.979,
-   "kind": "now",
-   "saving": 0.0386,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-10-29T05:16:00+01:00",
-   "price": 1.979,
-   "kind": "now",
-   "saving": 0.0379,
-   "evaluated": "zu wenige Messungen"
-  },
   {
    "ts": "2026-10-29T06:14:00+01:00",
    "price": 1.979,
@@ -2938,18 +2903,15 @@
    "price": 1.849,
    "kind": "now",
    "saving": 0.0366
+  },
+  {
+   "ts": "2026-11-12T05:18:00+01:00",
+   "price": 1.849,
+   "kind": "now",
+   "saving": 0.037
   }
  ],
  "journal": [
-  {
-   "ts": "2026-10-21T07:04:00+02:00",
-   "kind": "push",
-   "title": "Super E5 günstig: 2,029 €",
-   "text": "ORLEN Express, Otto-Suhr-Allee 132, Berlin, Umweg ca. 8 km, spart netto 0,98 € pro Tankfüllung.",
-   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
-   "source": "Regeln",
-   "price": 2.029
-  },
   {
    "ts": "2026-10-21T13:45:00+02:00",
    "kind": "push",
@@ -3270,7 +3232,13 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle; neuer 7-Tage-Tiefstpreis.",
    "source": "Regeln",
    "price": 1.849
+  },
+  {
+   "ts": "2026-11-12T05:18:00+01:00",
+   "kind": "gelernt",
+   "title": "Regeln angepasst",
+   "text": "Tatsächliche Ersparnis beim Warten lag bei 141% der Prognose: Prognose-Korrektur 138 % → 150 %."
   }
  ],
- "last_learn": "2026-11-11"
+ "last_learn": "2026-11-12"
 }

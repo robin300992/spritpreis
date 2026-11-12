@@ -1,10 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-29T00:46:00+01:00,1.979,2.009,2.009,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
-2026-10-29T01:38:00+01:00,1.979,2.009,2.009,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
-2026-10-29T02:39:00+01:00,1.979,2.009,2.009,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
-2026-10-29T03:28:00+01:00,1.979,2.009,2.009,102,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
-2026-10-29T04:17:00+01:00,1.979,2.009,2.009,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
-2026-10-29T05:16:00+01:00,1.979,2.009,2.009,127,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-29T06:14:00+01:00,1.979,1.999,2.009,191,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-29T06:59:00+01:00,1.979,1.999,2.009,192,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-10-29T09:46:00+01:00,1.979,1.999,2.009,198,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
@@ -350,3 +344,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-11T18:28:00+01:00,1.849,1.899,1.899,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-11T19:04:00+01:00,1.849,1.899,1.899,197,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-12T00:39:00+01:00,1.849,1.899,1.899,103,f3c0c60e-7709-486b-a7d8-eea21ad0c2d9,"Sb, Fraunhofer Straße 33-36, Berlin"
+2026-11-12T05:18:00+01:00,1.849,1.899,1.899,127,f3c0c60e-7709-486b-a7d8-eea21ad0c2d9,"Sb, Fraunhofer Straße 33-36, Berlin"
