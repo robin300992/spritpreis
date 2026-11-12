@@ -103,6 +103,9 @@ h3 { font: 600 1.2rem/1.2 var(--cond); margin: 1.5rem 0 .5rem; }
 .journal .m { color: var(--muted); font-size: .9rem; }
 .journal .r { font-size: .9rem; margin-top: .15rem; }
 footer { margin-top: 3rem; color: var(--muted); font-size: .85rem; }
+#ziehen { position: fixed; top: calc(env(safe-area-inset-top) + 8px); left: 50%; transform: translateX(-50%);
+  background: var(--surface); color: var(--muted); border: 1px solid var(--line); border-radius: 20px;
+  padding: 6px 14px; font-size: .85rem; display: none; pointer-events: none; z-index: 20; }
 footer a { color: inherit; }
 
 dialog { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); max-width: 26rem; width: calc(100% - 2rem); padding: 1.25rem; }
@@ -193,6 +196,7 @@ dialog p { margin: .25rem 0 0; color: var(--muted); font-size: .9rem; }
   </form>
 </dialog>
 
+<div id="ziehen"></div>
 <script>
 const $ = (id) => document.getElementById(id);
 const WD = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
@@ -395,7 +399,9 @@ function renderAgent() {
 function render() {
   $("radius").textContent = String(DATA.radius_km).replace(".", ",");
   const age = Math.max(0, Math.round((Date.now() - Date.parse(DATA.updated)) / 60000));
-  setHero(DATA.stations[0], `Stand ${fmtWhen(DATA.updated)} (vor ${age} Min.), ${DATA.open_count} offene Tankstellen, Verlauf über ${DATA.span_days.toFixed(1).replace(".", ",")} Tage`, false);
+  const alter = age < 90 ? `vor ${age} Min.` : `vor ${Math.round(age / 60)} Std.`;
+  const spaet = age >= 120 ? " – Agent verspätet, GitHub startet die Läufe gerade unzuverlässig" : "";
+  setHero(DATA.stations[0], `Stand ${fmtWhen(DATA.updated)} (${alter}${spaet}), ${DATA.open_count} offene Tankstellen, Verlauf über ${DATA.span_days.toFixed(1).replace(".", ",")} Tage`, false);
   if (DATA.stations[0]) renderRec(DATA.stations[0].price);
   renderFacts(); renderHeat(); renderChart(); renderList(DATA.stations); renderFrequent();
   renderDetour(); renderAgent();
@@ -468,6 +474,35 @@ $("btn-reload").addEventListener("click", load);
 $("btn-settings").addEventListener("click", openSettings);
 let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => DATA && renderChart(), 150); });
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") load(); });
+
+// Neu laden durch Herunterziehen (funktioniert auch als Web-App vom Home-Bildschirm)
+const ziehen = $("ziehen");
+let ziehStart = null, ziehWeg = 0;
+const oben = () => (document.scrollingElement || document.documentElement).scrollTop <= 5;
+function ziehHinweis(text, sichtbar) {
+  ziehen.textContent = text; ziehen.style.opacity = sichtbar; ziehen.style.display = sichtbar ? "block" : "none";
+}
+document.addEventListener("touchstart", (ev) => {
+  ziehStart = oben() && ev.touches.length === 1 && !document.querySelector("dialog[open]") ? ev.touches[0].clientY : null;
+  ziehWeg = 0;
+}, { passive: true });
+document.addEventListener("touchmove", (ev) => {
+  if (ziehStart == null) return;
+  ziehWeg = ev.touches[0].clientY - ziehStart;
+  if (ziehWeg > 10) ziehHinweis(ziehWeg > 60 ? "Loslassen zum Aktualisieren" : "Zum Aktualisieren ziehen", Math.min(1, ziehWeg / 60));
+}, { passive: true });
+function ziehEnde() {
+  if (ziehStart == null) return;
+  ziehStart = null;
+  if (ziehWeg <= 60) { ziehHinweis("", 0); return; }
+  ziehHinweis("Wird aktualisiert …", 1);
+  load().then(() => {
+    const st = DATA && DATA.updated ? new Date(DATA.updated).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Berlin" }) : "";
+    ziehHinweis(st ? "Aktualisiert · Stand " + st : "Keine Verbindung", 1);
+  }).finally(() => setTimeout(() => ziehHinweis("", 0), 1500));
+}
+document.addEventListener("touchend", ziehEnde);
+document.addEventListener("touchcancel", ziehEnde);
 load();
 </script>
 </body>
