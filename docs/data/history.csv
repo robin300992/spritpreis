@@ -1,11 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-30T18:17:00+01:00,2.048,2.129,2.149,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-10-30T19:07:00+01:00,2.048,2.109,2.129,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-10-30T19:56:00+01:00,2.048,2.099,2.109,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-10-30T20:42:00+01:00,2.048,2.079,2.089,196,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-10-30T21:20:00+01:00,2.029,2.069,2.089,190,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
-2026-10-30T22:10:00+01:00,2.009,2.069,2.079,120,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
-2026-10-30T22:48:00+01:00,2.019,2.069,2.079,116,e1a15081-2580-9107-e040-0b0a3dfe563c,"Hem, Attilastr. 124, Berlin"
 2026-10-30T23:30:00+01:00,2.029,2.069,2.079,104,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-31T00:14:00+01:00,2.029,2.069,2.079,102,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-10-31T00:52:00+01:00,2.029,2.069,2.079,104,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
@@ -312,3 +305,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-13T02:42:00+01:00,1.869,1.889,1.899,103,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
 2026-11-13T09:47:00+01:00,1.869,1.879,1.889,198,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-13T17:59:00+01:00,1.938,2.009,2.029,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-11-13T23:29:00+01:00,1.889,1.929,1.949,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
