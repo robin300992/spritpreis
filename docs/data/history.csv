@@ -1,12 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-10-31T04:17:00+01:00,2.029,2.069,2.079,104,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
-2026-10-31T05:13:00+01:00,2.019,2.064,2.079,111,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
-2026-10-31T05:59:00+01:00,2.019,2.059,2.079,112,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
-2026-10-31T06:38:00+01:00,2.009,2.059,2.074,156,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
-2026-10-31T07:19:00+01:00,2.009,2.049,2.069,190,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
-2026-10-31T08:27:00+01:00,2.009,2.039,2.059,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
-2026-10-31T09:17:00+01:00,2.009,2.029,2.049,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
-2026-10-31T10:11:00+01:00,2.009,2.029,2.039,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-31T10:53:00+01:00,2.009,2.029,2.039,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-31T11:28:00+01:00,2.009,2.029,2.039,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-10-31T12:06:00+01:00,2.019,2.319,2.339,197,05122edf-dc87-4f5c-adc7-1b74dcb2fba1,"Kaufland, Döberitzer Weg 3, Dallgow-Döberitz"
@@ -301,3 +293,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-13T17:59:00+01:00,1.938,2.009,2.029,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-13T23:29:00+01:00,1.889,1.929,1.949,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-11-14T03:39:00+01:00,1.889,1.929,1.949,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
+2026-11-14T10:26:00+01:00,1.859,1.879,1.889,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
