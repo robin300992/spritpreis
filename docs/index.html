@@ -403,7 +403,7 @@ function render() {
   $("radius").textContent = String(DATA.radius_km).replace(".", ",");
   const age = Math.max(0, Math.round((Date.now() - Date.parse(DATA.updated)) / 60000));
   const alter = age < 90 ? `vor ${age} Min.` : `vor ${Math.round(age / 60)} Std.`;
-  const spaet = age >= 120 ? " – Agent verspätet, GitHub startet die Läufe gerade unzuverlässig" : "";
+  const spaet = (new Date().getHours() >= 7 && age >= 150) ? " – Agent verspätet, GitHub startet die Läufe gerade unzuverlässig" : "";
   setHero(DATA.stations[0], `Stand ${fmtWhen(DATA.updated)} (${alter}${spaet}), ${DATA.open_count} offene Tankstellen, Verlauf über ${DATA.span_days.toFixed(1).replace(".", ",")} Tage`, false);
   if (DATA.stations[0]) renderRec(DATA.stations[0].price);
   renderFacts(); renderHeat(); renderChart(); renderList(DATA.stations); renderFrequent();
