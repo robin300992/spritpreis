@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-01T14:46:00+01:00,2.048,2.299,2.309,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-11-01T15:29:00+01:00,2.048,2.269,2.279,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-01T16:09:00+01:00,2.048,2.249,2.259,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-01T16:45:00+01:00,2.048,2.239,2.249,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-01T17:29:00+01:00,2.048,2.219,2.239,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
@@ -277,3 +275,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-15T11:25:00+01:00,1.869,1.879,1.889,195,e75cdbaa-4847-4358-b6f6-dd0aea283bb8,"Sprint, Mecklenburgische Str. 76, Berlin"
 2026-11-15T12:00:00+01:00,1.869,1.879,1.889,195,e75cdbaa-4847-4358-b6f6-dd0aea283bb8,"Sprint, Mecklenburgische Str. 76, Berlin"
 2026-11-15T14:00:00+01:00,1.938,2.169,2.179,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
+2026-11-15T15:40:00+01:00,1.938,2.084,2.129,195,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
