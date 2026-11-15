@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-01T06:44:00+01:00,2.048,2.089,2.119,145,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-11-01T07:26:00+01:00,2.048,2.079,2.109,179,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-01T08:33:00+01:00,2.039,2.069,2.089,194,e1a15081-2580-9107-e040-0b0a3dfe563c,"Hem, Attilastr. 124, Berlin"
 2026-11-01T09:27:00+01:00,2.019,2.049,2.079,195,005056ba-7cb6-1ed2-bceb-6dbab19bed20,"Star, Steglitzer Damm 77, Berlin"
 2026-11-01T10:17:00+01:00,2.019,2.039,2.059,195,9a0eb832-f276-47cb-92ed-5aa588da780e,"Sprint, Barnackufer 25, Berlin"
@@ -277,3 +275,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-14T22:00:00+01:00,1.859,1.889,1.909,189,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-15T01:20:00+01:00,1.869,1.894,1.909,103,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-11-15T06:00:00+01:00,1.869,1.889,1.909,112,e299aecc-2b21-4891-9f18-0056139bcb81,"Sprint, Potsdamer Str. 11, Berlin"
+2026-11-15T07:59:00+01:00,1.869,1.879,1.899,180,e75cdbaa-4847-4358-b6f6-dd0aea283bb8,"Sprint, Mecklenburgische Str. 76, Berlin"
