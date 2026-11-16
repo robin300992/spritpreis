@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-02T12:33:00+01:00,2.019,2.319,2.329,197,005056ba-7cb6-1ed2-bceb-99abbf748d3b,"Star, Johannisthaler Ch. 263-273, Berlin"
-2026-11-02T13:36:00+01:00,2.009,2.219,2.269,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-02T14:52:00+01:00,2.009,2.029,2.089,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-02T15:52:00+01:00,2.009,2.029,2.039,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-02T16:52:00+01:00,2.009,2.029,2.029,196,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
@@ -264,3 +262,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-16T10:00:00+01:00,1.859,1.879,1.889,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-16T11:00:00+01:00,1.849,1.879,1.889,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-16T12:00:00+01:00,1.849,1.869,1.889,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-16T14:00:00+01:00,1.889,2.169,2.179,198,0591a60a-a167-4cc5-a200-c21d4a1e698e,"Shell, Berliner Str. 83, Berlin"
