@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-02T20:46:00+01:00,1.979,2.009,2.019,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
-2026-11-02T21:38:00+01:00,1.979,2.009,2.019,188,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-02T22:24:00+01:00,1.989,2.009,2.019,119,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
 2026-11-02T23:11:00+01:00,1.989,2.009,2.019,104,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
 2026-11-02T23:54:00+01:00,1.989,2.009,2.019,101,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
@@ -261,3 +259,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-16T16:00:00+01:00,1.899,2.049,2.069,198,0591a60a-a167-4cc5-a200-c21d4a1e698e,"Shell, Berliner Str. 83, Berlin"
 2026-11-16T19:08:00+01:00,1.889,1.919,1.929,197,718913e3-0f0d-4073-9b78-5696c9207068,"TotalEnergies, Habichtstr. 11-13, Berlin"
 2026-11-16T20:00:00+01:00,1.879,1.919,1.929,197,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
+2026-11-16T22:00:00+01:00,1.859,1.889,1.909,189,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
