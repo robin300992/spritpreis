@@ -1,9 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-02T01:16:00+01:00,2.048,2.084,2.109,103,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-11-02T02:40:00+01:00,2.048,2.084,2.109,103,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-11-02T03:31:00+01:00,2.048,2.084,2.109,103,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-11-02T04:33:00+01:00,2.048,2.089,2.109,105,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
-2026-11-02T05:40:00+01:00,2.048,2.079,2.099,130,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-02T06:42:00+01:00,2.039,2.069,2.089,191,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-02T07:46:00+01:00,2.009,2.059,2.079,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-02T09:21:00+01:00,2.009,2.029,2.049,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
@@ -268,3 +263,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-15T20:58:00+01:00,1.879,1.899,1.939,193,005056ba-7cb6-1ed2-bceb-6dbab19bed20,"Star, Steglitzer Damm 77, Berlin"
 2026-11-15T22:00:00+01:00,1.879,1.889,1.909,187,005056ba-7cb6-1ed2-bceb-6e844f9e6d20,"Star, Königin-Luise-Straße 22a, Berlin"
 2026-11-16T00:54:00+01:00,1.879,1.899,1.909,103,e299aecc-2b21-4891-9f18-0056139bcb81,"Sprint, Potsdamer Str. 11, Berlin"
+2026-11-16T06:00:00+01:00,1.879,1.889,1.899,130,e299aecc-2b21-4891-9f18-0056139bcb81,"Sprint, Potsdamer Str. 11, Berlin"
