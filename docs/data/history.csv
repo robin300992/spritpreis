@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-02T09:21:00+01:00,2.009,2.029,2.049,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-02T10:33:00+01:00,2.009,2.029,2.039,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-02T11:38:00+01:00,2.009,2.029,2.029,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-02T12:33:00+01:00,2.019,2.319,2.329,197,005056ba-7cb6-1ed2-bceb-99abbf748d3b,"Star, Johannisthaler Ch. 263-273, Berlin"
@@ -264,3 +263,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-16T06:00:00+01:00,1.879,1.889,1.899,130,e299aecc-2b21-4891-9f18-0056139bcb81,"Sprint, Potsdamer Str. 11, Berlin"
 2026-11-16T06:21:00+01:00,1.879,1.889,1.899,191,e75cdbaa-4847-4358-b6f6-dd0aea283bb8,"Sprint, Mecklenburgische Str. 76, Berlin"
 2026-11-16T08:00:00+01:00,1.869,1.889,1.899,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-16T10:00:00+01:00,1.859,1.879,1.889,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
