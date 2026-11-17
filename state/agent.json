@@ -6,17 +6,6 @@
  },
  "decisions": [
   {
-   "ts": "2026-11-03T15:50:00+01:00",
-   "price": 1.999,
-   "kind": "wait",
-   "saving": 0.0234,
-   "target": "2026-11-03T22:00:00+01:00",
-   "outcome": {
-    "realized": 0.04
-   },
-   "evaluated": "2026-11-04T04:29:00+01:00"
-  },
-  {
    "ts": "2026-11-03T16:42:00+01:00",
    "price": 1.989,
    "kind": "wait",
@@ -1982,18 +1971,15 @@
    "kind": "wait",
    "saving": 0.0834,
    "target": "2026-11-17T22:00:00+01:00"
+  },
+  {
+   "ts": "2026-11-17T16:02:00+01:00",
+   "price": 1.849,
+   "kind": "now",
+   "saving": 0.0842
   }
  ],
  "journal": [
-  {
-   "ts": "2026-10-28T07:19:00+01:00",
-   "kind": "push",
-   "title": "Super E5 günstig: 1,999 €",
-   "text": "Bavaria Petrol, Heilbronner Straße 14-15, Berlin, Umweg ca. 4 km, spart netto 0,85 € pro Tankfüllung.",
-   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
-   "source": "Regeln",
-   "price": 1.979
-  },
   {
    "ts": "2026-10-28T16:43:00+01:00",
    "kind": "push",
@@ -2311,6 +2297,15 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 1.859
+  },
+  {
+   "ts": "2026-11-17T16:02:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,859 €",
+   "text": "Star, Königin-Luise-Straße 22a, Berlin, Umweg ca. 6 km, spart netto 8,50 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 1.849
   }
  ],
  "last_learn": "2026-11-17"
