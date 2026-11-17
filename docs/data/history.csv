@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-03T14:52:00+01:00,1.999,2.199,2.259,198,e1a15081-257b-9107-e040-0b0a3dfe563c,"Hem, Straße vor Schönholz 3, Berlin"
 2026-11-03T15:50:00+01:00,1.999,2.141,2.219,198,e1a15081-257b-9107-e040-0b0a3dfe563c,"Hem, Straße vor Schönholz 3, Berlin"
 2026-11-03T16:42:00+01:00,1.989,2.119,2.159,197,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-11-03T17:34:00+01:00,1.969,2.019,2.109,197,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
@@ -252,3 +251,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-17T11:30:00+01:00,1.849,1.869,1.879,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-17T12:00:00+01:00,1.849,1.869,1.879,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-17T14:00:00+01:00,1.879,2.109,2.159,197,9a0eb832-f276-47cb-92ed-5aa588da780e,"Sprint, Barnackufer 25, Berlin"
+2026-11-17T15:25:00+01:00,1.869,1.939,2.029,197,005056ba-7cb6-1ed2-bceb-99e3f54b4d3b,"Star, Lindenthaler Allee 42, Berlin"
