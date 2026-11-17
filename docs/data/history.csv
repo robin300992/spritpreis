@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-03T10:33:00+01:00,1.949,1.989,1.999,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-03T11:38:00+01:00,1.949,1.979,1.989,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-03T12:33:00+01:00,2.009,2.299,2.329,198,0591a60a-a167-4cc5-a200-c21d4a1e698e,"Shell, Berliner Str. 83, Berlin"
 2026-11-03T13:35:00+01:00,1.999,2.269,2.289,198,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
@@ -252,3 +251,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-17T06:07:00+01:00,1.869,1.879,1.899,190,e75cdbaa-4847-4358-b6f6-dd0aea283bb8,"Sprint, Mecklenburgische Str. 76, Berlin"
 2026-11-17T08:00:00+01:00,1.859,1.879,1.889,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-17T10:00:00+01:00,1.859,1.879,1.879,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-17T11:00:00+01:00,1.849,1.879,1.879,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
