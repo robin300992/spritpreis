@@ -6,54 +6,6 @@
  },
  "decisions": [
   {
-   "ts": "2026-11-03T00:30:00+01:00",
-   "price": 1.989,
-   "kind": "wait",
-   "saving": 0.0307,
-   "target": "2026-11-03T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-03T01:15:00+01:00",
-   "price": 1.989,
-   "kind": "wait",
-   "saving": 0.033,
-   "target": "2026-11-03T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-03T02:36:00+01:00",
-   "price": 1.989,
-   "kind": "wait",
-   "saving": 0.0313,
-   "target": "2026-11-03T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-03T03:29:00+01:00",
-   "price": 1.989,
-   "kind": "wait",
-   "saving": 0.0312,
-   "target": "2026-11-03T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-03T04:24:00+01:00",
-   "price": 1.989,
-   "kind": "wait",
-   "saving": 0.0299,
-   "target": "2026-11-03T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-03T05:22:00+01:00",
-   "price": 1.989,
-   "kind": "wait",
-   "saving": 0.0271,
-   "target": "2026-11-03T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
    "ts": "2026-11-03T06:24:00+01:00",
    "price": 1.979,
    "kind": "now",
@@ -2031,14 +1983,16 @@
    "price": 1.889,
    "kind": "wait",
    "saving": 0.0834,
-   "target": "2026-11-16T22:00:00+01:00"
+   "target": "2026-11-16T22:00:00+01:00",
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-16T16:00:00+01:00",
    "price": 1.899,
    "kind": "wait",
    "saving": 0.0831,
-   "target": "2026-11-16T22:00:00+01:00"
+   "target": "2026-11-16T22:00:00+01:00",
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-16T19:08:00+01:00",
@@ -2065,6 +2019,13 @@
    "price": 1.869,
    "kind": "wait",
    "saving": 0.025,
+   "target": "2026-11-17T10:00:00+01:00"
+  },
+  {
+   "ts": "2026-11-17T06:00:00+01:00",
+   "price": 1.869,
+   "kind": "wait",
+   "saving": 0.0163,
    "target": "2026-11-17T10:00:00+01:00"
   }
  ],
@@ -2397,5 +2358,5 @@
    "price": 1.849
   }
  ],
- "last_learn": "2026-11-16"
+ "last_learn": "2026-11-17"
 }
