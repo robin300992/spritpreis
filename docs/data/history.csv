@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-04T20:28:00+01:00,1.969,1.989,2.009,196,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
-2026-11-04T21:23:00+01:00,1.949,1.979,1.989,190,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-04T22:17:00+01:00,1.939,1.979,1.989,119,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-04T23:15:00+01:00,1.959,1.979,1.989,104,49d45108-e566-470e-aa7e-fd3c6590c683,"Shell, Manteuffelstr. 6-7, Berlin"
 2026-11-05T00:13:00+01:00,1.959,1.979,1.999,101,49d45108-e566-470e-aa7e-fd3c6590c683,"Shell, Manteuffelstr. 6-7, Berlin"
@@ -242,3 +240,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-18T16:00:00+01:00,1.898,2.009,2.039,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-18T18:00:00+01:00,1.898,1.939,1.959,197,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-18T20:00:00+01:00,1.869,1.889,1.919,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-18T22:00:00+01:00,1.839,1.869,1.889,189,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
