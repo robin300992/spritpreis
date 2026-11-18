@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-04T10:53:00+01:00,1.939,1.959,1.969,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-04T13:00:00+01:00,1.999,2.289,2.309,198,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
 2026-11-04T13:59:00+01:00,1.999,2.249,2.259,198,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
 2026-11-04T15:15:00+01:00,1.999,2.059,2.199,198,51d4b703-a095-1aa0-e100-80009459e03a,"Jet, Kurt-Schumacher-Damm 36, Berlin"
@@ -242,3 +241,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-18T06:00:00+01:00,1.839,1.859,1.869,130,005056ba-7cb6-1ed2-bceb-6d89eb120d20,"Star, Kaiser-Friedrich-Straße 102, Berlin"
 2026-11-18T08:00:00+01:00,1.829,1.859,1.869,198,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-18T10:00:00+01:00,1.829,1.859,1.859,198,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
+2026-11-18T11:00:00+01:00,1.829,1.859,1.859,198,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
