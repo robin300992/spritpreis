@@ -6,41 +6,6 @@
  },
  "decisions": [
   {
-   "ts": "2026-11-04T00:02:00+01:00",
-   "price": 1.959,
-   "kind": "now",
-   "saving": 0.029,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-04T01:46:00+01:00",
-   "price": 1.959,
-   "kind": "now",
-   "saving": 0.0297,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-04T02:52:00+01:00",
-   "price": 1.959,
-   "kind": "now",
-   "saving": 0.0294,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-04T03:42:00+01:00",
-   "price": 1.959,
-   "kind": "now",
-   "saving": 0.0311,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-04T04:29:00+01:00",
-   "price": 1.959,
-   "kind": "now",
-   "saving": 0.0281,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
    "ts": "2026-11-04T05:29:00+01:00",
    "price": 1.959,
    "kind": "now",
@@ -1879,27 +1844,31 @@
    "ts": "2026-11-17T12:00:00+01:00",
    "price": 1.849,
    "kind": "now",
-   "saving": 0.0711
+   "saving": 0.0711,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-17T14:00:00+01:00",
    "price": 1.879,
    "kind": "wait",
    "saving": 0.0828,
-   "target": "2026-11-17T22:00:00+01:00"
+   "target": "2026-11-17T22:00:00+01:00",
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-17T15:25:00+01:00",
    "price": 1.869,
    "kind": "wait",
    "saving": 0.0834,
-   "target": "2026-11-17T22:00:00+01:00"
+   "target": "2026-11-17T22:00:00+01:00",
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-17T16:02:00+01:00",
    "price": 1.849,
    "kind": "now",
-   "saving": 0.0842
+   "saving": 0.0842,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-17T18:00:00+01:00",
@@ -1924,6 +1893,12 @@
    "price": 1.839,
    "kind": "now",
    "saving": 0.0081
+  },
+  {
+   "ts": "2026-11-18T04:53:00+01:00",
+   "price": 1.839,
+   "kind": "now",
+   "saving": 0.0219
   }
  ],
  "journal": [
@@ -2255,5 +2230,5 @@
    "price": 1.849
   }
  ],
- "last_learn": "2026-11-17"
+ "last_learn": "2026-11-18"
 }
