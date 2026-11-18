@@ -6,20 +6,6 @@
  },
  "decisions": [
   {
-   "ts": "2026-11-04T06:29:00+01:00",
-   "price": 1.959,
-   "kind": "now",
-   "saving": 0.0201,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-04T07:30:00+01:00",
-   "price": 1.959,
-   "kind": "now",
-   "saving": 0.0243,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
    "ts": "2026-11-04T08:58:00+01:00",
    "price": 1.959,
    "kind": "now",
@@ -1874,7 +1860,8 @@
    "ts": "2026-11-17T20:00:00+01:00",
    "price": 1.829,
    "kind": "now",
-   "saving": 0.0186
+   "saving": 0.0186,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-17T22:00:00+01:00",
@@ -1899,18 +1886,15 @@
    "price": 1.839,
    "kind": "now",
    "saving": 0.0143
+  },
+  {
+   "ts": "2026-11-18T08:00:00+01:00",
+   "price": 1.829,
+   "kind": "now",
+   "saving": 0.0038
   }
  ],
  "journal": [
-  {
-   "ts": "2026-10-28T16:43:00+01:00",
-   "kind": "push",
-   "title": "Super E5 günstig: 2,049 €",
-   "text": "Star, Königin-Luise-Straße 22a, Berlin, Umweg ca. 6 km, spart netto 7,40 € pro Tankfüllung.",
-   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
-   "source": "Regeln",
-   "price": 1.999
-  },
   {
    "ts": "2026-10-29T09:46:00+01:00",
    "kind": "push",
@@ -2228,6 +2212,15 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 1.849
+  },
+  {
+   "ts": "2026-11-18T08:00:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,829 €",
+   "text": "ORLEN Express, Otto-Suhr-Allee 132, Berlin, Umweg ca. 8 km, spart netto 1,13 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 1.829
   }
  ],
  "last_learn": "2026-11-18"
