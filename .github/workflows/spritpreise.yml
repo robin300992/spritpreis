@@ -2,7 +2,7 @@ name: Spritpreise
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # alle 15 Minuten (GitHub startet manchmal etwas verspätet)
+    - cron: "7,22,37,52 * * * *"   # alle 15 Minuten, bewusst nicht zur vollen Stunde (weniger Ausfälle)
   workflow_dispatch:          # manuell: Actions › Spritpreise › Run workflow
 
 permissions:
