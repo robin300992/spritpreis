@@ -1787,7 +1787,8 @@
    "ts": "2026-11-18T23:23:00+01:00",
    "price": 1.849,
    "kind": "now",
-   "saving": 0.0081
+   "saving": 0.0081,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-19T04:48:00+01:00",
