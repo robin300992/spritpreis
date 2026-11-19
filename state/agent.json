@@ -6,27 +6,6 @@
  },
  "decisions": [
   {
-   "ts": "2026-11-05T18:00:00+01:00",
-   "price": 1.999,
-   "kind": "wait",
-   "saving": 0.0156,
-   "target": "2026-11-05T22:00:00+01:00",
-   "outcome": {
-    "realized": 0.09
-   },
-   "evaluated": "2026-11-06T06:51:00+01:00"
-  },
-  {
-   "ts": "2026-11-05T19:51:00+01:00",
-   "price": 1.959,
-   "kind": "now",
-   "saving": 0.0091,
-   "outcome": {
-    "regret": 0.05
-   },
-   "evaluated": "2026-11-06T07:59:00+01:00"
-  },
-  {
    "ts": "2026-11-05T20:47:00+01:00",
    "price": 1.939,
    "kind": "now",
@@ -1745,7 +1724,8 @@
    "ts": "2026-11-19T08:00:00+01:00",
    "price": 1.839,
    "kind": "now",
-   "saving": 0.0015
+   "saving": 0.0015,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-19T10:00:00+01:00",
@@ -1793,18 +1773,15 @@
    "kind": "wait",
    "saving": 0.0559,
    "target": "2026-11-19T22:00:00+01:00"
+  },
+  {
+   "ts": "2026-11-19T20:00:00+01:00",
+   "price": 1.799,
+   "kind": "now",
+   "saving": 0.0168
   }
  ],
  "journal": [
-  {
-   "ts": "2026-10-29T09:46:00+01:00",
-   "kind": "push",
-   "title": "Super E5 günstig: 2,009 €",
-   "text": "Aral, Hohenzollerndamm 97, Berlin, nächstgelegene Tankstelle.",
-   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
-   "source": "Regeln",
-   "price": 1.979
-  },
   {
    "ts": "2026-11-01T03:18:00+01:00",
    "kind": "gelernt",
@@ -2122,6 +2099,15 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 1.829
+  },
+  {
+   "ts": "2026-11-19T20:00:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,799 €",
+   "text": "ORLEN Express, Otto-Suhr-Allee 132, Berlin, Umweg ca. 8 km, spart netto 2,65 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle; neuer 7-Tage-Tiefstpreis.",
+   "source": "Regeln",
+   "price": 1.799
   }
  ],
  "last_learn": "2026-11-19"
