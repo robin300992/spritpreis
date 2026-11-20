@@ -6,16 +6,6 @@
  },
  "decisions": [
   {
-   "ts": "2026-11-06T09:17:00+01:00",
-   "price": 1.899,
-   "kind": "now",
-   "saving": 0.0091,
-   "outcome": {
-    "regret": 0.0
-   },
-   "evaluated": "2026-11-06T21:55:00+01:00"
-  },
-  {
    "ts": "2026-11-06T10:25:00+01:00",
    "price": 1.899,
    "kind": "now",
@@ -1706,13 +1696,15 @@
    "ts": "2026-11-19T21:48:00+01:00",
    "price": 1.789,
    "kind": "now",
-   "saving": 0.0045
+   "saving": 0.0045,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-19T22:00:00+01:00",
    "price": 1.789,
    "kind": "now",
-   "saving": 0.0008
+   "saving": 0.0008,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-20T02:55:00+01:00",
@@ -1731,6 +1723,12 @@
    "price": 1.789,
    "kind": "now",
    "saving": 0.0011
+  },
+  {
+   "ts": "2026-11-20T10:00:00+01:00",
+   "price": 1.789,
+   "kind": "now",
+   "saving": 0.0039
   }
  ],
  "journal": [
