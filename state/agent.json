@@ -6,20 +6,6 @@
  },
  "decisions": [
   {
-   "ts": "2026-11-06T06:51:00+01:00",
-   "price": 1.909,
-   "kind": "now",
-   "saving": 0.0171,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-06T07:59:00+01:00",
-   "price": 1.909,
-   "kind": "now",
-   "saving": 0.0231,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
    "ts": "2026-11-06T09:17:00+01:00",
    "price": 1.899,
    "kind": "now",
@@ -1713,7 +1699,8 @@
    "ts": "2026-11-19T20:00:00+01:00",
    "price": 1.799,
    "kind": "now",
-   "saving": 0.0168
+   "saving": 0.0168,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-19T21:48:00+01:00",
@@ -1738,15 +1725,15 @@
    "price": 1.789,
    "kind": "now",
    "saving": 0.0121
+  },
+  {
+   "ts": "2026-11-20T08:00:00+01:00",
+   "price": 1.789,
+   "kind": "now",
+   "saving": 0.0011
   }
  ],
  "journal": [
-  {
-   "ts": "2026-11-01T03:18:00+01:00",
-   "kind": "gelernt",
-   "title": "Regeln angepasst",
-   "text": "Tatsächliche Ersparnis beim Warten lag bei 87% der Prognose: Prognose-Korrektur 150 % → 144 %."
-  },
   {
    "ts": "2026-11-02T03:31:00+01:00",
    "kind": "gelernt",
@@ -2067,6 +2054,15 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle; neuer 7-Tage-Tiefstpreis.",
    "source": "Regeln",
    "price": 1.799
+  },
+  {
+   "ts": "2026-11-20T08:00:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,799 €",
+   "text": "Bavaria Petrol, Heilbronner Straße 14-15, Berlin, Umweg ca. 4 km, spart netto 0,91 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 1.789
   }
  ],
  "last_learn": "2026-11-20"
