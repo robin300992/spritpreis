@@ -1,7 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-07T20:25:00+01:00,1.899,1.909,1.919,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
-2026-11-07T21:03:00+01:00,1.899,1.909,1.919,190,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
-2026-11-07T21:48:00+01:00,1.899,1.909,1.919,189,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-07T22:29:00+01:00,1.899,1.909,1.919,119,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-07T23:10:00+01:00,1.899,1.909,1.919,104,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
 2026-11-07T23:47:00+01:00,1.899,1.909,1.919,101,1c4f126b-1f3c-4b38-9692-05c400ea8e61,"Sprint, Kniprodestr. 25, Berlin"
@@ -211,3 +208,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-21T16:34:00+01:00,1.809,1.849,1.899,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-21T18:00:00+01:00,1.809,1.839,1.869,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-21T20:00:00+01:00,1.809,1.829,1.849,197,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
+2026-11-21T22:00:00+01:00,1.809,1.829,1.849,189,e299aecc-2b21-4891-9f18-0056139bcb81,"Sprint, Potsdamer Str. 11, Berlin"
