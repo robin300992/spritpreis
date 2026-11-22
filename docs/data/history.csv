@@ -1,6 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-08T06:19:00+01:00,1.899,1.909,1.919,145,2d3cf56e-d3a7-4d3f-9469-d1ba249a2fe3,"Sprint, Residenzstr. 79, Berlin"
-2026-11-08T07:16:00+01:00,1.899,1.909,1.919,179,2d3cf56e-d3a7-4d3f-9469-d1ba249a2fe3,"Sprint, Residenzstr. 79, Berlin"
 2026-11-08T08:34:00+01:00,1.899,1.909,1.919,194,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-08T09:28:00+01:00,1.899,1.909,1.919,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-08T10:21:00+01:00,1.889,1.909,1.919,195,3cf8cf3f-5d53-40d5-ab3e-31d3a24f90cd,"bft-Tankstelle, Kapweg 2, Berlin"
@@ -203,3 +201,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-21T22:06:00+01:00,1.809,1.834,1.849,119,e299aecc-2b21-4891-9f18-0056139bcb81,"Sprint, Potsdamer Str. 11, Berlin"
 2026-11-22T02:14:00+01:00,1.809,1.839,1.849,102,e299aecc-2b21-4891-9f18-0056139bcb81,"Sprint, Potsdamer Str. 11, Berlin"
 2026-11-22T06:00:00+01:00,1.809,1.839,1.849,112,e299aecc-2b21-4891-9f18-0056139bcb81,"Sprint, Potsdamer Str. 11, Berlin"
+2026-11-22T08:00:00+01:00,1.809,1.829,1.849,180,e299aecc-2b21-4891-9f18-0056139bcb81,"Sprint, Potsdamer Str. 11, Berlin"
