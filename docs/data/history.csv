@@ -1,7 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-08T18:28:00+01:00,1.999,2.039,2.049,195,005056ba-7cb6-1ed2-bceb-99abbf748d3b,"Star, Johannisthaler Ch. 263-273, Berlin"
-2026-11-08T19:05:00+01:00,1.999,2.019,2.049,195,e1a15081-2580-9107-e040-0b0a3dfe563c,"Hem, Attilastr. 124, Berlin"
-2026-11-08T19:55:00+01:00,1.979,2.009,2.029,195,e1a15081-2580-9107-e040-0b0a3dfe563c,"Hem, Attilastr. 124, Berlin"
 2026-11-08T20:38:00+01:00,1.949,1.989,2.019,193,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
 2026-11-08T21:16:00+01:00,1.939,1.977,2.009,188,e1a15081-2580-9107-e040-0b0a3dfe563c,"Hem, Attilastr. 124, Berlin"
 2026-11-08T22:05:00+01:00,1.929,1.979,1.999,117,0161d940-ebc3-4b74-a513-89322bef9e76,"Q1, Mariendorfer Damm 11-13, Berlin"
@@ -199,3 +196,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-22T16:00:00+01:00,1.859,1.939,1.979,195,e1a15081-25af-9107-e040-0b0a3dfe563c,"Hem, Saatwinkler Damm 62, Berlin"
 2026-11-22T17:26:00+01:00,1.859,1.879,1.929,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-22T18:00:00+01:00,1.859,1.869,1.899,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
+2026-11-22T20:00:00+01:00,1.859,1.869,1.879,195,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
