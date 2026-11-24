@@ -1,58 +1,10 @@
 {
  "params": {
-  "percentile": 0.16,
+  "percentile": 0.18,
   "min_saving": 0.011,
   "calib": 1.5
  },
  "decisions": [
-  {
-   "ts": "2026-11-10T00:15:00+01:00",
-   "price": 1.939,
-   "kind": "wait",
-   "saving": 0.0294,
-   "target": "2026-11-10T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-10T01:02:00+01:00",
-   "price": 1.939,
-   "kind": "wait",
-   "saving": 0.0287,
-   "target": "2026-11-10T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-10T02:14:00+01:00",
-   "price": 1.939,
-   "kind": "wait",
-   "saving": 0.0331,
-   "target": "2026-11-10T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-10T03:18:00+01:00",
-   "price": 1.939,
-   "kind": "wait",
-   "saving": 0.0264,
-   "target": "2026-11-10T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-10T04:15:00+01:00",
-   "price": 1.939,
-   "kind": "wait",
-   "saving": 0.0315,
-   "target": "2026-11-10T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
-  {
-   "ts": "2026-11-10T05:22:00+01:00",
-   "price": 1.939,
-   "kind": "wait",
-   "saving": 0.0287,
-   "target": "2026-11-10T11:00:00+01:00",
-   "evaluated": "zu wenige Messungen"
-  },
   {
    "ts": "2026-11-10T06:24:00+01:00",
    "price": 1.929,
@@ -1155,28 +1107,32 @@
    "ts": "2026-11-23T12:00:00+01:00",
    "price": 1.809,
    "kind": "now",
-   "saving": 0.0353
+   "saving": 0.0353,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-23T14:00:00+01:00",
    "price": 1.898,
    "kind": "wait",
    "saving": 0.067,
-   "target": "2026-11-23T22:00:00+01:00"
+   "target": "2026-11-23T22:00:00+01:00",
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-23T16:00:00+01:00",
    "price": 1.898,
    "kind": "wait",
    "saving": 0.0633,
-   "target": "2026-11-23T22:00:00+01:00"
+   "target": "2026-11-23T22:00:00+01:00",
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-23T18:00:00+01:00",
    "price": 1.889,
    "kind": "wait",
    "saving": 0.0527,
-   "target": "2026-11-23T22:00:00+01:00"
+   "target": "2026-11-23T22:00:00+01:00",
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-23T20:00:00+01:00",
@@ -1201,15 +1157,15 @@
    "price": 1.809,
    "kind": "now",
    "saving": -0.0054
+  },
+  {
+   "ts": "2026-11-24T06:00:00+01:00",
+   "price": 1.809,
+   "kind": "now",
+   "saving": 0.009
   }
  ],
  "journal": [
-  {
-   "ts": "2026-11-05T03:00:00+01:00",
-   "kind": "gelernt",
-   "title": "Regeln angepasst",
-   "text": "Tatsächliche Ersparnis beim Warten lag bei 84% der Prognose: Prognose-Korrektur 122 % → 116 %."
-  },
   {
    "ts": "2026-11-05T08:01:00+01:00",
    "kind": "push",
@@ -1533,7 +1489,13 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 1.809
+  },
+  {
+   "ts": "2026-11-24T06:00:00+01:00",
+   "kind": "gelernt",
+   "title": "Regeln angepasst",
+   "text": "„Jetzt tanken“ lag zu 100% richtig, Schwelle wird großzügiger: Günstig-Schwelle 16 % → 18 %."
   }
  ],
- "last_learn": "2026-11-23"
+ "last_learn": "2026-11-24"
 }
