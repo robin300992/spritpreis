@@ -1114,18 +1114,15 @@
    "price": 1.789,
    "kind": "now",
    "saving": 0.0316
+  },
+  {
+   "ts": "2026-11-25T14:00:00+01:00",
+   "price": 1.789,
+   "kind": "now",
+   "saving": 0.0677
   }
  ],
  "journal": [
-  {
-   "ts": "2026-11-06T07:59:00+01:00",
-   "kind": "push",
-   "title": "Super E5 günstig: 1,919 €",
-   "text": "Sprint, Mecklenburgische Str. 76, Berlin, Umweg ca. 5 km, spart netto 6,60 € pro Tankfüllung.",
-   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
-   "source": "Regeln",
-   "price": 1.909
-  },
   {
    "ts": "2026-11-06T21:55:00+01:00",
    "kind": "push",
@@ -1446,6 +1443,15 @@
    "kind": "push",
    "title": "Super E5 günstig: 1,799 €",
    "text": "Bavaria Petrol, Heilbronner Straße 14-15, Berlin, Umweg ca. 4 km, spart netto 0,91 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 1.789
+  },
+  {
+   "ts": "2026-11-25T14:00:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,789 €",
+   "text": "TotalEnergies, Argentinische Allee 49, Berlin, Umweg ca. 8 km, spart netto 17,20 € pro Tankfüllung.",
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 1.789
