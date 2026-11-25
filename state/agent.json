@@ -6,13 +6,6 @@
  },
  "decisions": [
   {
-   "ts": "2026-11-11T10:44:00+01:00",
-   "price": 1.879,
-   "kind": "now",
-   "saving": 0.0025,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
    "ts": "2026-11-11T18:28:00+01:00",
    "price": 1.849,
    "kind": "now",
@@ -1109,6 +1102,12 @@
    "price": 1.779,
    "kind": "now",
    "saving": 0.0086
+  },
+  {
+   "ts": "2026-11-25T11:00:00+01:00",
+   "price": 1.779,
+   "kind": "now",
+   "saving": 0.0111
   }
  ],
  "journal": [
