@@ -1124,13 +1124,15 @@
    "ts": "2026-11-26T04:14:00+01:00",
    "price": 1.779,
    "kind": "now",
-   "saving": 0.0073
+   "saving": 0.0073,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-26T06:00:00+01:00",
    "price": 1.779,
    "kind": "now",
-   "saving": 0.0102
+   "saving": 0.0102,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-26T08:00:00+01:00",
@@ -1173,6 +1175,12 @@
    "price": 1.779,
    "kind": "now",
    "saving": 0.0649
+  },
+  {
+   "ts": "2026-11-26T18:00:00+01:00",
+   "price": 1.769,
+   "kind": "now",
+   "saving": 0.0508
   }
  ],
  "journal": [
