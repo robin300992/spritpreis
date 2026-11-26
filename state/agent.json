@@ -1118,7 +1118,8 @@
    "ts": "2026-11-25T20:00:00+01:00",
    "price": 1.769,
    "kind": "now",
-   "saving": 0.0186
+   "saving": 0.0186,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-25T21:42:00+01:00",
@@ -1143,18 +1144,15 @@
    "price": 1.779,
    "kind": "now",
    "saving": 0.0102
+  },
+  {
+   "ts": "2026-11-26T08:00:00+01:00",
+   "price": 1.769,
+   "kind": "now",
+   "saving": 0.0024
   }
  ],
  "journal": [
-  {
-   "ts": "2026-11-06T21:55:00+01:00",
-   "kind": "push",
-   "title": "Super E5 günstig: 1,959 €",
-   "text": "Star, Königin-Luise-Straße 22a, Berlin, Umweg ca. 6 km, spart netto 4,45 € pro Tankfüllung.",
-   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
-   "source": "Regeln",
-   "price": 1.929
-  },
   {
    "ts": "2026-11-07T03:42:00+01:00",
    "kind": "gelernt",
@@ -1478,6 +1476,15 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 1.789
+  },
+  {
+   "ts": "2026-11-26T08:00:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,779 €",
+   "text": "Sprint, Mecklenburgische Str. 76, Berlin, Umweg ca. 5 km, spart netto 0,67 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 1.769
   }
  ],
  "last_learn": "2026-11-26"
