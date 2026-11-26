@@ -1168,15 +1168,15 @@
    "price": 1.789,
    "kind": "now",
    "saving": 0.0546
+  },
+  {
+   "ts": "2026-11-26T14:00:00+01:00",
+   "price": 1.789,
+   "kind": "now",
+   "saving": 0.0688
   }
  ],
  "journal": [
-  {
-   "ts": "2026-11-07T03:42:00+01:00",
-   "kind": "gelernt",
-   "title": "Regeln angepasst",
-   "text": "Tatsächliche Ersparnis beim Warten lag bei 90% der Prognose: Prognose-Korrektur 112 % → 109 %."
-  },
   {
    "ts": "2026-11-07T07:14:00+01:00",
    "kind": "push",
@@ -1503,6 +1503,15 @@
    "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
    "source": "Regeln",
    "price": 1.769
+  },
+  {
+   "ts": "2026-11-26T14:00:00+01:00",
+   "kind": "push",
+   "title": "Super E5 günstig: 1,789 €",
+   "text": "Aral, Hauptstraße 86, Berlin, Umweg ca. 10 km, spart netto 15,91 € pro Tankfüllung.",
+   "reasoning": "Regelbasiert: günstige Phase: Preis unter der gelernten Schwelle.",
+   "source": "Regeln",
+   "price": 1.789
   }
  ],
  "last_learn": "2026-11-26"
