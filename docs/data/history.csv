@@ -1,5 +1,4 @@
 ts,min,p25,median,count,cheapest_id,cheapest
-2026-11-12T12:52:00+01:00,1.938,2.179,2.249,198,12e6b614-87d4-4413-afd2-7dd783505ee8,"Hans Engelke Energie OHG, Tempelhofer Weg 10, Berlin"
 2026-11-12T14:06:00+01:00,1.879,2.169,2.179,198,51863198-2987-48b8-aa2e-dd949bc403dc,"TotalEnergies, Bulgarische Str. 9, Berlin"
 2026-11-12T21:49:00+01:00,1.869,1.889,1.899,189,005056ba-7cb6-1ee5-b791-639597361b11,"ORLEN Express, Otto-Suhr-Allee 132, Berlin"
 2026-11-13T02:42:00+01:00,1.869,1.889,1.899,103,51d4b4cf-a095-1aa0-e100-80009459e03a,"Jet, Prenzlauer Promenade 42 A, Berlin"
@@ -191,3 +190,4 @@ ts,min,p25,median,count,cheapest_id,cheapest
 2026-11-26T11:30:00+01:00,1.759,1.779,1.789,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-26T12:00:00+01:00,1.759,1.779,1.789,198,ef0a079d-8e57-46dc-bef4-37da56cf7c1c,"Supermarkt-Tankstelle, Bessemer Str. 57, Berlin"
 2026-11-26T12:11:00+01:00,1.779,2.149,2.149,198,10ba80a5-b028-497c-b94e-8e247e487a12,"Sun, Oranienburger Strasse 181, Berlin"
+2026-11-26T13:53:00+01:00,1.789,2.069,2.079,198,6ab6f8d4-e9f1-4c73-8a20-852b8cd73bc4,"Aral, Hauptstraße 86, Berlin"
