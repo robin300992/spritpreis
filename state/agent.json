@@ -6,13 +6,6 @@
  },
  "decisions": [
   {
-   "ts": "2026-11-13T02:42:00+01:00",
-   "price": 1.869,
-   "kind": "now",
-   "saving": 0.0324,
-   "evaluated": "zu wenige Messungen"
-  },
-  {
    "ts": "2026-11-13T09:47:00+01:00",
    "price": 1.869,
    "kind": "now",
@@ -1152,25 +1145,29 @@
    "ts": "2026-11-26T12:00:00+01:00",
    "price": 1.759,
    "kind": "now",
-   "saving": 0.026
+   "saving": 0.026,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-26T13:53:00+01:00",
    "price": 1.789,
    "kind": "now",
-   "saving": 0.0546
+   "saving": 0.0546,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-26T14:00:00+01:00",
    "price": 1.789,
    "kind": "now",
-   "saving": 0.0688
+   "saving": 0.0688,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-26T16:00:00+01:00",
    "price": 1.779,
    "kind": "now",
-   "saving": 0.0649
+   "saving": 0.0649,
+   "evaluated": "zu wenige Messungen"
   },
   {
    "ts": "2026-11-26T18:00:00+01:00",
@@ -1195,6 +1192,12 @@
    "price": 1.769,
    "kind": "now",
    "saving": -0.0005
+  },
+  {
+   "ts": "2026-11-27T05:20:00+01:00",
+   "price": 1.769,
+   "kind": "now",
+   "saving": 0.0139
   }
  ],
  "journal": [
@@ -1535,5 +1538,5 @@
    "price": 1.789
   }
  ],
- "last_learn": "2026-11-26"
+ "last_learn": "2026-11-27"
 }
